@@ -1,1 +1,21 @@
+/*Header*/
 
+.navbar {
+    background-color: #F4ECE0;
+}
+
+.logo {
+    margin-right: 447px;
+}
+
+.views {
+    color: #663399;
+    font-weight: bold;
+    margin-right: 208px;
+}
+
+/*Footer*/
+
+.btn-primary {
+    background-color: #663399;
+}
