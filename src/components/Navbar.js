@@ -14,10 +14,10 @@ const NavigationBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto views">
-              <Nav.Link href="#features">Viajes</Nav.Link>
-              <Nav.Link href="#pricing">Ayuda</Nav.Link>
-              <Nav.Link href="#pricing">Nosotras</Nav.Link>
-              <Nav.Link href="#pricing">Contacto</Nav.Link>
+              <Nav.Link href="#features" className="viewsLinks">Viajes</Nav.Link>
+              <Nav.Link href="#pricing" className="viewsLinks">Ayuda</Nav.Link>
+              <Nav.Link href="#pricing" className="viewsLinks">Nosotras</Nav.Link>
+              <Nav.Link href="#pricing" className="viewsLinks">Contacto</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

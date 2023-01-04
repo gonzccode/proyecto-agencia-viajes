@@ -9,13 +9,22 @@
 }
 
 .views {
-    color: #663399;
     font-weight: bold;
     margin-right: 208px;
 }
 
+.viewsLinks {
+    color: #663399;
+}
+
 /*Footer*/
 
-.btn-primary {
+footer {
+    background-color: #F4ECE0;
+
+}
+
+.regretButton {
     background-color: #663399;
+    border-radius: 100px;
 }
