@@ -1,7 +1,9 @@
 /*Header*/
 
-.navbar {
+#navbar {
     background-color: #F4ECE0;
+    border-bottom: 4px solid  #663399;
+    position: sticky;
 }
 
 .logo {
@@ -33,12 +35,12 @@ footer {
     justify-content: space-evenly;
 }
 
-#complaintContainer {
-    margin-left: 104px;
+#complaintContainerSection {
+    padding: 20px 0px;
 }
 
-#logoContainer {
-    margin-left: 80px;
+#complaintContainer {
+    margin-left: 50px;
 }
 
 #buttonsContainer {
@@ -48,7 +50,6 @@ footer {
 #footerNavbarContainer {
     display: flex;
     flex-direction: row;
-    margin-right: 50px;
 }
 
 .regretButton {
@@ -75,6 +76,21 @@ footer {
     display: flex;
     flex-direction: column;
     margin-right: 30px;
+}
+
+#consumerProtectionSection {
+    background-color: #F0F0F0;
+}
+
+#consumerProtectionTextContainer {
+    display: flex;
+    justify-content: center;
+    margin: 5px 20px;
+    padding: 20px;
+}
+
+.consumerProductionText {
+    text-align: justify;
 }
 
 .footerDataBoxes {

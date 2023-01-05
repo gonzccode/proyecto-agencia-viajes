@@ -8,7 +8,7 @@ import Image from 'react-bootstrap/Image'
 const NavigationBar = () => {
   return (
     <header>
-      <Navbar collapseOnSelect expand="lg" className="navbar">
+      <Navbar collapseOnSelect expand="lg" id="navbar">
         <Container>
           <Image src={logo} alt="logo" className="logo"/>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
