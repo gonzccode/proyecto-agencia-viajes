@@ -109,3 +109,37 @@ footer {
 .footerIcons {
     margin-right: 10px;
 }
+
+/*Home*/
+
+#nextTripsContainer {
+    display: grid;
+    place-items: center;
+    margin: 100px 0px;
+}
+
+#nextTripsSubtitleContainer {
+    background-color: #663399;
+    padding: 10px 70px;
+}
+
+.secondarySubtitles {
+    text-align: center;
+}
+
+.nextTripsSubtitle {
+    color: #F4ECE0;
+    font-weight: bold;
+}
+
+#frecuentJourneysSubtitleContainer {
+    margin: 100px 0px;
+}
+
+#frecuentJourneys {
+    color: #663399;
+}
+
+#travelWithUs {
+    color: #BA007C;
+}
