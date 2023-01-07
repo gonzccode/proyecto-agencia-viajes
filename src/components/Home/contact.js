@@ -7,16 +7,16 @@ import whatsappIcon from '../../assets/img/whatsapp-icon.png';
 
 const Contact = () => {
   return (
-    <>
+    <section>
         <div>
-            <h2>Escribenos para más información</h2>
+            <h2 className="secondarySubtitles" id="writeUs">Escribenos para más información</h2>
         </div>
-        <Stack direction="horizontal"> 
-            <Button variant="primary" size="lg"><Image src={whatsappIcon} alt="logo whatsapp" className="contactButtons"/></Button>{' '}
-            <Button variant="primary" size="lg"><Image src={instagramIcon} alt="logo instagram" className="contactButtons"/></Button>{' '}
-            <Button variant="primary" size="lg"><Image src={facebookIcon} alt="logo facebook" className="contactButtons"/></Button>{' '}
+        <Stack direction="horizontal" id="contactButtonsContainer"> 
+            <Button variant="primary" size="lg" className="contactButtons"><Image src={whatsappIcon} alt="logo whatsapp"  className="contactLogos"/></Button>{' '}
+            <Button variant="primary" size="lg" className="contactButtons"><Image src={instagramIcon} alt="logo instagram" className="contactLogos" /></Button>{' '}
+            <Button variant="primary" size="lg" className="contactButtons"><Image src={facebookIcon} alt="logo facebook" className="contactLogos" /></Button>{' '}
         </Stack>
-    </>
+    </section>
   )
 }
 

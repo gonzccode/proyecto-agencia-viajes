@@ -52,7 +52,7 @@ footer {
     flex-direction: row;
 }
 
-.regretButton {
+#regretButton {
     background-color: #663399;
     border-radius: 100px;
     margin-bottom: 10px;
@@ -112,13 +112,13 @@ footer {
 
 /*Home*/
 
-#nextTripsContainer {
+.rectangularSubtitleContainers {
     display: grid;
     place-items: center;
-    margin: 100px 0px;
+    margin: 100px 0px 50px 0px;
 }
 
-#nextTripsSubtitleContainer {
+.purpleBgSubtitleContainer {
     background-color: #663399;
     padding: 10px 70px;
 }
@@ -127,7 +127,7 @@ footer {
     text-align: center;
 }
 
-.nextTripsSubtitle {
+.whiteSubtitles {
     color: #F4ECE0;
     font-weight: bold;
 }
@@ -142,4 +142,54 @@ footer {
 
 #travelWithUs {
     color: #BA007C;
+}
+
+#writeUs {
+    color: #BA007C;
+    font-weight: bold;
+}
+
+#contactButtonsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactButtons {
+    background-color: #663399;
+    border-radius: 50%;
+    margin: 30px 15px;
+}
+
+.contactLogos {
+    padding: 15px;
+}
+
+#questionSubtitle {
+    color: #300044;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#presentationSubtitle {
+    color: #BA007C;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#clarisasInformationCol {
+    display: grid;
+    place-items: center;
+}
+
+#knowUsButton {
+    background-color: #663399;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+#clarisasImage {
+    filter: drop-shadow(2px 4px 25px rgba(0, 0, 0, 0.25));
+    border-radius: 25px;
 }
