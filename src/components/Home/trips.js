@@ -1,4 +1,5 @@
 import Stack from 'react-bootstrap/Stack';
+import { TripListContainer } from './tripListContainer';
 
 const Trips = () => {
   return (
@@ -13,7 +14,7 @@ const Trips = () => {
       </div>
       <Stack direction="horizontal">
         <div>
-          Aca carousel de cards!
+          <TripListContainer/>
         </div>
       </Stack>
     </section>
