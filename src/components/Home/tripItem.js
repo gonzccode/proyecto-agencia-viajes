@@ -8,8 +8,8 @@ const TripItem = ({ trip }) => {
     console.log(trip);
 
     return (
-        <Card style={{ width: '24rem' }}>
-            <Card.Img src={trip.image} alt={trip.destination} width={286} height={180}/>
+        <Card style={{ width: '24rem' }} className="cards">
+            <Card.Img src={trip.image} alt={trip.destination} width={286} height={180} className="cardsImage"/>
             <Card.Body>
                 <Container>
                     <Row>

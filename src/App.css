@@ -149,11 +149,25 @@ footer {
     font-weight: bold;
 }
 
+#homeTripCardsContainer {
+    margin-left: 100px;
+}
+
 #homeTripCards {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     gap: 15px;
+}
+
+.cards {
+    filter: drop-shadow(2px 4px 25px rgba(0, 0, 0, 0.25));
+    border-radius: 40px;
+    margin: 50px 0px;
+}
+
+.cardsImage {
+    border-radius: 25px 25px 0px 0px;
 }
 
 .cardTitle {

@@ -2,13 +2,15 @@ import { TripItem } from './tripItem';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper';
 
 const TripList = ({ tripList }) => {
 
     return (
-        <Container>
-            <Row id="homeTripCards">
+        <Container id="homeTripCardsContainer">
+            <Row>
             <Swiper
+                modules={[Navigation, Pagination]}
                 spaceBetween={20}
                 slidesPerView={3}
                 navigation
@@ -16,7 +18,7 @@ const TripList = ({ tripList }) => {
                 onSwiper={(swiper) => console.log(swiper)}
             >
                         {tripList.map(trip => 
-                        <SwiperSlide key={trip.id}>
+                        <SwiperSlide key={trip.id} id="homeTripCards">
                             <TripItem trip={trip}/>
                         </SwiperSlide>
                             )}
