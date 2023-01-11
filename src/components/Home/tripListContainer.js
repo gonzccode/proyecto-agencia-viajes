@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { customFetch } from "../../utils/customFetch";
 import { trips } from "../../utils/trips";
-import { TripList } from "./tripList";
+import { TripsList } from "./tripList";
 
-const TripListContainer = () => {
+const TripsListContainer = () => {
     
-    const [tripList, setTripList] = useState([]);
+    const [tripsList, setTripsList] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -13,14 +13,14 @@ const TripListContainer = () => {
         customFetch(trips)
             .then(res => {
                 setLoading(false);
-                setTripList(res)});
+                setTripsList(res)});
     }, []);
 
     return (
         <>
-            {!loading ? <TripList tripList={tripList}/> : <strong>CARGANDO...</strong>}
+            {!loading ? <TripsList tripsList={tripsList}/> : <strong>CARGANDO...</strong>}
         </>
     )
 }
 
-export { TripListContainer }
+export { TripsListContainer }

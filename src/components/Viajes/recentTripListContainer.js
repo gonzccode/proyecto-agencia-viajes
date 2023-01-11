@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { customFetch } from "../../utils/customFetch";
 import { recentTrips } from "../../utils/recentTrips";
-import { RecentTripList } from "./recentTripList";
+import { RecentTripsList } from "./recentTripList";
 
-const RecentTripListContainer = () => {
+const RecentTripsListContainer = () => {
 
-    const [recentTripList, setRecentTripList] = useState([]);
+    const [recentTripsList, setRecentTripsList] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -13,15 +13,15 @@ const RecentTripListContainer = () => {
         customFetch(recentTrips)
             .then(res => {
                 setLoading(false);
-                setRecentTripList(res)});
+                setRecentTripsList(res)});
     }, []);
 
     return (
         <> 
             <h3 className="destinationSubtitles">destinos recientes</h3>
-            {!loading ? <RecentTripList recentTripList={recentTripList}/> : <strong>CARGANDO...</strong>}
+            {!loading ? <RecentTripsList recentTripsList={recentTripsList}/> : <strong>CARGANDO...</strong>}
         </>
     )
 }
 
-export { RecentTripListContainer };
+export { RecentTripsListContainer };

@@ -1,14 +1,14 @@
 import { TripsTitle } from "./title";
-import { RecentTripListContainer } from "./recentTripListContainer";
-import { DistinguishedTripListContainer } from "./distinguishedTripListContainer";
+import { RecentTripsListContainer } from "./recentTripListContainer";
+import { DistinguishedTripsListContainer } from "./distinguishedTripListContainer";
 
 
 const Trips = () => {
     return (
         <>
             <TripsTitle />
-            <RecentTripListContainer />
-            <DistinguishedTripListContainer/>
+            <RecentTripsListContainer />
+            <DistinguishedTripsListContainer/>
         </>
     )
 }

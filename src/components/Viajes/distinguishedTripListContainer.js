@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import { customFetch } from "../../utils/customFetch";
 import { distinguishedTrips } from "../../utils/distinguishedTrips";
-import { DistinguishedTripList } from "./distinguishedTripList";
+import { DistinguishedTripsList } from "./distinguishedTripList";
 
-const DistinguishedTripListContainer = () => {
+const DistinguishedTripsListContainer = () => {
 
-    const [distinguishedTripList, setDistinguishedTripList] = useState([]);
+    const [distinguishedTripsList, setDistinguishedTripsList] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -13,15 +13,15 @@ const DistinguishedTripListContainer = () => {
         customFetch(distinguishedTrips)
             .then(res => {
                 setLoading(false);
-                setDistinguishedTripList(res)});
+                setDistinguishedTripsList(res)});
     }, []);
 
     return (
         <> 
             <h3 className="destinationSubtitles">destinos destacados</h3>
-            {!loading ? <DistinguishedTripList distinguishedTripList={distinguishedTripList}/> : <strong>CARGANDO...</strong>}
+            {!loading ? <DistinguishedTripsList distinguishedTripsList={distinguishedTripsList}/> : <strong>CARGANDO...</strong>}
         </>
     )
 }
 
-export { DistinguishedTripListContainer };
+export { DistinguishedTripsListContainer };

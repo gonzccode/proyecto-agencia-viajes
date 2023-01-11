@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper';
 
-const TripList = ({ tripList }) => {
+const TripsList = ({ tripsList }) => {
 
     return (
         <Container id="homeTripCardsContainer">
@@ -17,7 +17,7 @@ const TripList = ({ tripList }) => {
                 onSlideChange={() => console.log('slide change')}
                 onSwiper={(swiper) => console.log(swiper)}
             >
-                        {tripList.map(trip => 
+                        {tripsList.map(trip => 
                         <SwiperSlide key={trip.id} id="homeTripCards">
                             <TripItem trip={trip}/>
                         </SwiperSlide>
@@ -28,4 +28,4 @@ const TripList = ({ tripList }) => {
     )
 }
 
-export { TripList }
+export { TripsList }
