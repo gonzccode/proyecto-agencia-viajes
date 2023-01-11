@@ -1,9 +1,16 @@
+import { TripsTitle } from "./title";
+import { RecentTripListContainer } from "./recentTripListContainer";
+import { DistinguishedTripListContainer } from "./distinguishedTripListContainer";
 
 
 const Trips = () => {
-  return (
-    <div>Sección viajes</div>
-  )
+    return (
+        <>
+            <TripsTitle />
+            <RecentTripListContainer />
+            <DistinguishedTripListContainer/>
+        </>
+    )
 }
 
 export { Trips } 
