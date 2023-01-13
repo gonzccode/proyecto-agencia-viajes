@@ -8,8 +8,6 @@ import dataFiscalAfip from '../assets/img/data_fiscal_afip.png';
 import emailIcon from '../assets/img/email_icon.png';
 import whatsappIcon from '../assets/img/whatsapp_icon.png';
 import youtubeIcon from '../assets/img/youtube_icon.png';
-import locationIcon from '../assets/img/location_icon.png';
-
 
 const Footer = () => {
     return (
