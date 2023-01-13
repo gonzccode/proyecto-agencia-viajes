@@ -5,12 +5,14 @@ import './App.css';
 import { NavigationBar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Home } from './components/Home/home';
+import { Ayuda } from './components/Ayuda/ayuda'
 
 function App() {
   return (
     <div className="App">
       <NavigationBar/>
-        <Home/>
+        {/* <Home/> */}
+        <Ayuda/>
       <Footer/>
     </div>
   );

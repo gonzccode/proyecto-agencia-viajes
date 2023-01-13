@@ -1,1 +1,9 @@
-console.log("esto es archivo ayuda")
+import React from 'react'
+
+const Ayuda = () => {
+  return (
+    <div>Ayuda</div>
+  )
+}
+
+export { Ayuda }
