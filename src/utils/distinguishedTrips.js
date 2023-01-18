@@ -1,8 +1,8 @@
 export const distinguishedTrips = [
     {
         id:1,
-        destination: "Colón, Entre Ríos",
-        image: "https://s3-alpha-sig.figma.com/img/a36c/89c3/197ba383c2ec7f64a7cdb8b71af64c5f?Expires=1674432000&Signature=qrxN-0eQgfawBqAJxSIh8fSEA0oYuHqqE31cnmeRl7JrB1QVQlJtHlDD3f7adMrUGDg7nUnU6OJhe7VEb0C5lQcNt1FaUSa3dLYNTWB5w6-XHuQdsnZbLf-xUnrdwb-I2mtc31CUslmH1FqUA-80tmu9rI~jVca4pJccvETcTM8ZQ7a3lGm0m81pJgujtuEWH6zVTwDWFMwKjW4OVKpx2fZfnCGUFt8vWVCdhwEldz-VV-dci~m4qQFwdC-xaYtQETKCSdREOyn4qYS5GJW75Qa-iuJ9EK94pQ2IFgeW3AAtp2ecK4qMXVsy--qxlVDT7mOSpuCBVrJ71GBTJux-Dw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        destination: "Teatro Colón, Capital Federal",
+        image: "https://s3-alpha-sig.figma.com/img/75ae/29b8/9856d79a6d7bd9b7bdf33101f392cfff?Expires=1675036800&Signature=FHLPyIpXocUuuIKejU77o5svM9Gx34QaPOnDon1jgq6UvP1eO3XiazP6BvHIPKTl~0ZnL6iUt9qtbTcY-5nAp1Si5flVf0aNJrtDOSKg1xvQsvxkdBXFviWYw0H6WWZBYzHTvMkEGRwmRC4WJh52fa8Lx3klKQ9Xmj8q2EIwZbiemeEheO4pF8a24fdPKIuyZ5ghie5u-~zAvPHrOGDBfcbcgFpsQdHrDVH8XqlQsbPYI79T69IwcKK9zRTMaQiZ3nvpnKpEG39fMevVcELlPMvj~DMztX6tXrlzq8OSy1KCOd5Ifn47OuRhgZU5UbUCsq4BV8k5JxcUKrHXoYg~QA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
         id:2,
