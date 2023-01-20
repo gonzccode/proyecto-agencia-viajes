@@ -8,7 +8,7 @@ const DistinguishedTripsList = ({ distinguishedTripsList }) => {
         <Container>
             <Row>
                 <Stack direction="horizontal" className="tripsSectionCards">
-                    {distinguishedTripsList.map(distinguishedTrip => <DistinguishedTripItem distinguishedTrip={distinguishedTrip}/>)}
+                    {distinguishedTripsList.map(distinguishedTrip => <DistinguishedTripItem key={distinguishedTrip.id} distinguishedTrip={distinguishedTrip}/>)}
                 </Stack>
             </Row>
         </Container>

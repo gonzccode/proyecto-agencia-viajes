@@ -8,7 +8,7 @@ const RecentTripsList = ({ recentTripsList }) => {
         <Container>
             <Row>
                 <Stack direction="horizontal" className="tripsSectionCards">
-                    {recentTripsList.map(recentTrip => <RecentTripItem recentTrip={recentTrip}/>)}
+                    {recentTripsList.map(recentTrip => <RecentTripItem key={recentTrip.id}recentTrip={recentTrip}/>)}
                 </Stack>
             </Row>
         </Container>

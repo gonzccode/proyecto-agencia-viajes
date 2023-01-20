@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { NavLink } from 'react-router-dom';
 
 const DistinguishedTripItem = ({ distinguishedTrip }) => {
     return (
@@ -15,7 +16,9 @@ const DistinguishedTripItem = ({ distinguishedTrip }) => {
                             <Card.Title className="cardTitle">{distinguishedTrip.destination}</Card.Title>
                         </Col>
                         <Col className="cardButtonContainers">
-                            <Button variant="primary" className="seeMoreButtons">VER MÁS</Button>
+                            <NavLink to={`detalle/${distinguishedTrip.id}`}>
+                                <Button variant="primary" className="seeMoreButtons">VER MÁS</Button>
+                            </NavLink>
                         </Col>
                     </Row>
                 </Container>

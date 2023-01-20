@@ -19,6 +19,7 @@
     color: #663399;
     font-weight: bold;
     text-decoration: none;
+    margin: 0px 15px;
 }
 
 /*Footer*/
@@ -164,7 +165,7 @@ footer {
 .rectangularSubtitleContainers {
     display: grid;
     place-items: center;
-    margin: 100px 0px 50px 0px;
+    margin: 100px 0px 100px 0px;
 }
 
 .purpleBgSubtitleContainer {
@@ -323,14 +324,87 @@ footer {
     margin: 20px 0px 10px 120px;
 }
 
-/*Subsecciones de detalle*/
+/*Subsecciones de detalle*/ 
 
-#tripInformationContainer {
+.leftInformationContainer {
     display: grid;
     place-items: left;
 }
 
-#tripInformationContainer div {
+.leftInformationContainer div {
     display: flex;
     flex-direction: row;
+}
+
+.leftInformationContainer div div{
+    font-size: 28px;
+}
+
+#detailDestinationContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#detailDestinationContainer h2 {
+    text-transform: uppercase;
+    color:#BA007C;
+    font-weight: bold;
+    margin-left: 78px;
+}
+#detailDestinationContainer p {
+    font-size: 28px;
+    margin-right: 78px;
+}
+
+.tripDestination {
+    color: #BA007C;
+}
+
+#tripCity {
+    color: #000000;
+}
+
+#detailImageContainer {
+    background-color: #F0F0F0;
+    display: grid;
+    place-items: center;
+}
+
+#detailImageContainer img {
+    padding: 20px;
+}
+
+#detailTextCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#detailTextCol h2 {
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#detailTextCol p {
+    text-align: justify;
+} 
+
+#detailButtonCol {
+    display: flex;
+    justify-content: right;
+}
+
+#detailButtonCol div button {
+    margin-top: 20px;
+}
+
+.detailIconContainers {
+    background-color: #663399;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.detailIcons {
+    padding: 10px;
 }
