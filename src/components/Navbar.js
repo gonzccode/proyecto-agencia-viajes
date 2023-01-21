@@ -17,16 +17,16 @@ const NavigationBar = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto views">
-              <NavLink to="/viajes">
+              <NavLink to="/viajes" className="navLinks">
                 <strong className="viewsLinks">Viajes</strong>
               </NavLink>
-              <NavLink to="/ayuda">
+              <NavLink to="/ayuda" className="navLinks">
                 <strong className="viewsLinks">Ayuda</strong>
               </NavLink>
-              <NavLink to="/nosotras">
+              <NavLink to="/nosotras" className="navLinks">
                 <strong className="viewsLinks">Nosotras</strong>
               </NavLink>
-              <NavLink to="/contacto">
+              <NavLink to="/contacto" className="navLinks">
                 <strong className="viewsLinks">Contacto</strong>
               </NavLink>
             </Nav>

@@ -3,7 +3,7 @@ export const detailTrips = [
         id:1,
         destination: "Colón",
         city:"/ Entre Ríos",
-        title:"se disfruta todo el año",
+        title:"Disfruta todo el año",
         text:"Colón, Entre Ríos se disfruta todo el año. Entretenimiento y actividades para todas las edades. Ideal para visitar con amigos o la familia.",
         image: "https://s3-alpha-sig.figma.com/img/c990/77e2/d55c45eed4afe11e69401f05d65b2af9?Expires=1675036800&Signature=C~vS~0v0BJ4Pw-5VaLgeIRUC9c2f7ciJn0tN0fokNdm00Z-ZG-qSdn4VeRib4mAs752FcvVFTsvKjUPC81o8mXB8ItUAx3n9rqbRb5IJBhzhzi4C8qEhZm7sM5yeIzemBXj2gFaPYIEPTotdXTZ5vSRveztLDFFu6nUkaIgPo0KgrAb~rFg7OIyaO0EkfFWqaZzENnsBtVV8Bldz9J~uJjqPqFgxVUjs1cTjwI1WAcXFvuqKmhkFw0Cnt86q70BzHiAcRQY1AaXMBICVY2C95rL9OBIgPBkDXtgubTpMZAhPA9LqhECFAdBtOcgcpNjmCjGv91kim-FRw8FHncT9iA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
@@ -11,7 +11,7 @@ export const detailTrips = [
         id:2,
         destination: "San Nicolás",
         city:"/ Buenos Aires",
-        title: "Vení a disfrutar ",
+        title: "Disfruta todo el año en ",
         text: "San Nicolás te invita a disfrutar de su legado religioso, cultural y su naturaleza junto al río Paraná. Una ciudad activa, natural y espiritual, que sin dudas no podés dejar de visitar.",
         image: "https://s3-alpha-sig.figma.com/img/61c9/ac76/a43405ebe714471e39ab2c076237dc3d?Expires=1675036800&Signature=jiPsuimkxHIlcojNRvsVMH43IvN4Vxia685u-j1tsWBxGmlEr2dkybJKx49f9ot7QobteJ6ZCYPG8dSMTBxch-h30t8ti3iLQZIPN7SPd71bJNCl6NKElmNgBMlJ9l~3DfoVZh2jjr4Ph-pugd3RW00umcGTnmoDgOe60Zc8Ko4XybEOKl~eqYUdRozhKpzZXT-UM1fY9Mf17AOXmQX1vWWygEO6VP4nc6qEXwdfKM1LNncDEKpBFJPqXpsQv~QxHlwX3xmUzWQ2AN3sHV0Pf-mFQ1~idIaYnEBqgDIqRVpfrgUsl11uKvm9xGiwJjPYR~dIcJOnbpkfVl1HeeBkEA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },

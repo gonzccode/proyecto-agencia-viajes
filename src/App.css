@@ -1,9 +1,16 @@
 /*Header*/
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 101;
+}
+
 #navbar {
     background-color: #F4ECE0;
     border-bottom: 4px solid  #663399;
-    position: sticky;
 }
 
 .logo {
@@ -15,11 +22,19 @@
     margin-right: 208px;
 }
 
+.navLinks {
+    text-decoration: none;
+}
+
 .viewsLinks {
     color: #663399;
     font-weight: bold;
     text-decoration: none;
     margin: 0px 15px;
+}
+
+.viewsLinks:hover {
+    color:#BA007C;
 }
 
 /*Footer*/
@@ -171,6 +186,7 @@ footer {
 .purpleBgSubtitleContainer {
     background-color: #663399;
     padding: 10px 70px;
+    margin-top: 50px;
 }
 
 .secondarySubtitles {
@@ -329,6 +345,7 @@ footer {
 .leftInformationContainer {
     display: grid;
     place-items: left;
+    margin: 0px 100px;
 }
 
 .leftInformationContainer div {
@@ -337,6 +354,12 @@ footer {
 }
 
 .leftInformationContainer div div{
+    font-size: 28px;
+    margin-left: 30px
+}
+
+.leftInformationContainer div h3{
+    margin-top: 60px;
     font-size: 28px;
 }
 
@@ -402,9 +425,13 @@ footer {
 .detailIconContainers {
     background-color: #663399;
     border-radius: 50px;
-    margin: 10px;
+    margin: 50px 0px;
 }
 
 .detailIcons {
     padding: 10px;
+}
+
+#detailTripServices {
+    margin: 40px 0px 40px 70px;
 }

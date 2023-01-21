@@ -1,6 +1,6 @@
 const DetailInformation = () => {
     return (
-        <div>
+        <div id="detailTripServices">
             <h2>¿Qué incluye?</h2>
             <ul>
                 <li>Traslado ida y vuelta (desde Luján - Gral. Rodriguez y Moreno)</li>
