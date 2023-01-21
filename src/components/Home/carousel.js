@@ -30,7 +30,7 @@ const MainCarousel = () => {
             </div>
             <div className="carouselContainers">
                 <div id="carouselButtonContainer">
-                    <NavLink to="viajes">
+                    <NavLink to="/viajes">
                         <Button variant="primary" size="lg" id="seeNextTripsButton">Ver próximos viajes <Image src={arrowIcon} alt="icono de flecha"/></Button>{' '}
                     </NavLink>
                 </div>
