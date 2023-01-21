@@ -26,14 +26,14 @@ header {
     text-decoration: none;
 }
 
-.viewsLinks {
+.navLinks strong {
     color: #663399;
     font-weight: bold;
     text-decoration: none;
     margin: 0px 15px;
 }
 
-.viewsLinks:hover {
+.navLinks strong:hover {
     color:#BA007C;
 }
 

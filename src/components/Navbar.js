@@ -18,16 +18,16 @@ const NavigationBar = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto views">
               <NavLink to="/viajes" className="navLinks">
-                <strong className="viewsLinks">Viajes</strong>
+                <strong>Viajes</strong>
               </NavLink>
               <NavLink to="/ayuda" className="navLinks">
-                <strong className="viewsLinks">Ayuda</strong>
+                <strong>Ayuda</strong>
               </NavLink>
               <NavLink to="/nosotras" className="navLinks">
-                <strong className="viewsLinks">Nosotras</strong>
+                <strong>Nosotras</strong>
               </NavLink>
               <NavLink to="/contacto" className="navLinks">
-                <strong className="viewsLinks">Contacto</strong>
+                <strong>Contacto</strong>
               </NavLink>
             </Nav>
           </Navbar.Collapse>

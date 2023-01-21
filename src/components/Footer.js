@@ -8,6 +8,7 @@ import dataFiscalAfip from '../assets/img/data_fiscal_afip.png';
 import emailIcon from '../assets/img/email_icon.png';
 import whatsappIcon from '../assets/img/whatsapp_icon.png';
 import youtubeIcon from '../assets/img/youtube_icon.png';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -18,7 +19,9 @@ const Footer = () => {
                     <p><b>Ley 24.240 -<br/>Autoridad Nacional de aplicación<br/> Defensa del Consumidor,<br/></b> para realizar reclamos ingrese <a href='#'>aquí<br/> (DENUNCIA CONTRA UNA AGENCIA)</a></p>
                 </div>
                 <div>
-                    <Image src={logo} alt="logo"/>
+                    <NavLink to="/">
+                        <Image src={logo} alt="logo"/>
+                    </NavLink>
                 </div>
                 <div id="buttonsContainer">
                     <Button variant="outline-primary" className="socialMediaButtons">YOUTUBE <Image src={youtubeIcon} alt="icono de youtube" className="socialMediaIcons"/></Button>{' '}
@@ -27,10 +30,18 @@ const Footer = () => {
                 </div>
                 <div id="footerNavbarContainer">
                     <nav className='footerNavbar'>
-                        <a className="viewsLinks">Viajes</a>
-                        <a className="viewsLinks">Ayuda</a>
-                        <a className="viewsLinks">Contacto</a>
-                        <a className="viewsLinks">Nosotros</a>
+                        <NavLink to="/viajes" className="navLinks">
+                            <strong>Viajes</strong>
+                        </NavLink>
+                        <NavLink to="/ayuda" className="navLinks">
+                            <strong>Ayuda</strong>
+                        </NavLink>
+                        <NavLink to="/contacto" className="navLinks">
+                            <strong>Contacto</strong>
+                        </NavLink>
+                        <NavLink to="/nosotras" className="navLinks">
+                            <strong>Nosotras</strong>
+                        </NavLink>
                     </nav>
                     <Image src={dataFiscalAfip} alt="data fiscal afip qr"/>
                 </div>
