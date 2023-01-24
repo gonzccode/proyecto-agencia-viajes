@@ -1,9 +1,16 @@
 /*Header*/
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 101;
+}
+
 #navbar {
     background-color: #F4ECE0;
     border-bottom: 4px solid  #663399;
-    position: sticky;
 }
 
 .logo {
@@ -15,10 +22,19 @@
     margin-right: 208px;
 }
 
-.viewsLinks {
+.navLinks {
+    text-decoration: none;
+}
+
+.navLinks strong {
     color: #663399;
     font-weight: bold;
     text-decoration: none;
+    margin: 0px 15px;
+}
+
+.navLinks strong:hover {
+    color:#BA007C;
 }
 
 /*Footer*/
@@ -171,6 +187,7 @@ footer {
 .purpleBgSubtitleContainer {
     background-color: #663399;
     padding: 10px 70px;
+    margin-top: 50px;
 }
 
 .secondarySubtitles {
@@ -297,7 +314,7 @@ footer {
     z-index: 100;
 }
 
-#writeUsButton {
+.writeUsButton {
     text-transform: uppercase;
     background-color: #BA007C;
     box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.25);
@@ -322,6 +339,102 @@ footer {
     text-transform: uppercase;
     color: #000000;
     margin: 20px 0px 10px 120px;
+}
+
+/*Subsecciones de detalle*/ 
+
+.leftInformationContainer {
+    display: grid;
+    place-items: left;
+    margin: 0px 100px;
+}
+
+.leftInformationContainer div {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftInformationContainer div div{
+    font-size: 28px;
+    margin-left: 30px
+}
+
+.leftInformationContainer div h3{
+    margin-top: 60px;
+    font-size: 28px;
+}
+
+#detailDestinationContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#detailDestinationContainer h2 {
+    text-transform: uppercase;
+    color:#BA007C;
+    font-weight: bold;
+    margin-left: 78px;
+}
+#detailDestinationContainer p {
+    font-size: 28px;
+    margin-right: 78px;
+}
+
+.tripDestination {
+    color: #BA007C;
+}
+
+#tripCity {
+    color: #000000;
+}
+
+#detailImageContainer {
+    background-color: #F0F0F0;
+    display: grid;
+    place-items: center;
+}
+
+#detailImageContainer img {
+    padding: 20px;
+}
+
+#detailTextCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#detailTextCol h2 {
+    margin: 15px 0px;
+    font-weight: bold;
+}
+
+#detailTextCol p {
+    text-align: justify;
+} 
+
+#detailButtonCol {
+    display: flex;
+    justify-content: right;
+}
+
+#detailButtonCol div button {
+    margin-top: 20px;
+}
+
+.detailIconContainers {
+    background-color: #663399;
+    border-radius: 50px;
+    margin: 50px 0px;
+}
+
+.detailIcons {
+    padding: 10px;
+}
+
+#detailTripServices {
+    margin: 40px 0px 40px 70px;
 }
 
 /*Ayuda*/

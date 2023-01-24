@@ -7,6 +7,7 @@ import cerro7Colores from '../../assets/img/cerro_7_colores.png';
 import teatroColon from '../../assets/img/teatro_colon.png';
 import museoDeTigre from '../../assets/img/museo_de_tigre.png';
 import carnavalGualeguaychu from '../../assets/img/carnaval_gualeguaychu.png';
+import { NavLink } from 'react-router-dom';
 
 const MainCarousel = () => {
     const [index, setIndex] = useState(0);
@@ -29,7 +30,9 @@ const MainCarousel = () => {
             </div>
             <div className="carouselContainers">
                 <div id="carouselButtonContainer">
-                    <Button variant="primary" size="lg" id="seeNextTripsButton">Ver próximos viajes <Image src={arrowIcon} alt="icono de flecha"/></Button>{' '}
+                    <NavLink to="/viajes">
+                        <Button variant="primary" size="lg" id="seeNextTripsButton">Ver próximos viajes <Image src={arrowIcon} alt="icono de flecha"/></Button>{' '}
+                    </NavLink>
                 </div>
             </div>
             <Carousel activeIndex={index} onSelect={handleSelect}>

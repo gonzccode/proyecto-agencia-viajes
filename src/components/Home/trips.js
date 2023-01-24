@@ -1,6 +1,5 @@
 import Stack from 'react-bootstrap/Stack';
 import { TripsListContainer } from './tripListContainer';
-import { TripDetailContainer } from './tripDetailContainer';
 
 const Trips = () => {
   return (
@@ -16,7 +15,6 @@ const Trips = () => {
       <Stack direction="horizontal">
         <div>
           <TripsListContainer/>
-          <TripDetailContainer/>
         </div>
       </Stack>
     </section>

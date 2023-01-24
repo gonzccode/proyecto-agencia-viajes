@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { NavLink } from 'react-router-dom';
 
 const TripItem = ({ trip }) => {
 
@@ -17,7 +18,9 @@ const TripItem = ({ trip }) => {
                             <Card.Title className="cardTitle">{trip.destination}</Card.Title>
                         </Col>
                         <Col className="cardButtonContainers">
-                            <Button variant="primary" className="seeMoreButtons">VER MÁS</Button>
+                            <NavLink to="/viajes">
+                                <Button variant="primary" className="seeMoreButtons">VER VIAJES</Button>
+                            </NavLink>
                         </Col>
                     </Row>
                 </Container>
