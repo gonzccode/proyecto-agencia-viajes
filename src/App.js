@@ -8,7 +8,7 @@ import { Home } from './components/Home/home';
 import { Trips } from './components/Viajes/trips';
 import { TripDetailContainer } from './components/Home/tripDetailContainer';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Ayuda } from './components/Ayuda/ayuda';
+import { Ayuda } from './components/Ayuda/Ayuda';
 import { FrequentyQuestions } from './components/Ayuda/frequentyQuestions';
 import { UsefulInformation } from './components/Ayuda/usefulInformation';
 import { PayBenefits } from './components/Ayuda/payBenefits';
