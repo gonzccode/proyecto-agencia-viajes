@@ -16,7 +16,7 @@ const Footer = () => {
             <Stack direction="horizontal" id="complaintContainerSection">
                 <div id="complaintContainer">
                     <Button variant="primary" size="lg" id="regretButton">BOTON DE ARREPENTIMIENTO</Button>{' '}
-                    <p><b>Ley 24.240 -<br/>Autoridad Nacional de aplicación<br/> Defensa del Consumidor,<br/></b> para realizar reclamos ingrese <a href='#'>aquí<br/> (DENUNCIA CONTRA UNA AGENCIA)</a></p>
+                    <p><b>Ley 24.240 -<br/>Autoridad Nacional de aplicación<br/> Defensa del Consumidor,<br/></b> para realizar reclamos ingrese <a href='https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes' target="_blank">aquí<br/> (DENUNCIA CONTRA UNA AGENCIA)</a></p>
                 </div>
                 <div>
                     <NavLink to="/">
@@ -24,9 +24,15 @@ const Footer = () => {
                     </NavLink>
                 </div>
                 <div id="buttonsContainer">
-                    <Button variant="outline-primary" className="socialMediaButtons">YOUTUBE <Image src={youtubeIcon} alt="icono de youtube" className="socialMediaIcons"/></Button>{' '}
-                    <Button variant="outline-primary" className="socialMediaButtons">INSTAGRAM <Image src={instagramIcon} alt="icono de instagram" className="socialMediaIcons"/></Button>{' '}
-                    <Button variant="outline-primary" className="socialMediaButtons">FACEBOOK <Image src={facebookIcon} alt="icono de facebook" className="socialMediaIcons"/></Button>{' '}
+                    <a href="https://www.youtube.com/@lasclarisas" target="_blank">
+                        <Button variant="outline-primary" className="socialMediaButtons">YOUTUBE <Image src={youtubeIcon} alt="icono de youtube" className="socialMediaIcons"/></Button>{' '}
+                    </a>
+                    <a href="https://www.instagram.com/lasclarisastours/" target="_blank">
+                        <Button variant="outline-primary" className="socialMediaButtons">INSTAGRAM <Image src={instagramIcon} alt="icono de instagram" className="socialMediaIcons"/></Button>{' '}
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank">
+                        <Button variant="outline-primary" className="socialMediaButtons">FACEBOOK <Image src={facebookIcon} alt="icono de facebook" className="socialMediaIcons"/></Button>{' '}
+                    </a>
                 </div>
                 <div id="footerNavbarContainer">
                     <nav className='footerNavbar'>

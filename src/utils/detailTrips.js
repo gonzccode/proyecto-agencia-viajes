@@ -13,7 +13,7 @@ export const detailTrips = [
         city:"/ Buenos Aires",
         title: "Disfruta todo el año en ",
         text: "San Nicolás te invita a disfrutar de su legado religioso, cultural y su naturaleza junto al río Paraná. Una ciudad activa, natural y espiritual, que sin dudas no podés dejar de visitar.",
-        image: "https://s3-alpha-sig.figma.com/img/61c9/ac76/a43405ebe714471e39ab2c076237dc3d?Expires=1675036800&Signature=jiPsuimkxHIlcojNRvsVMH43IvN4Vxia685u-j1tsWBxGmlEr2dkybJKx49f9ot7QobteJ6ZCYPG8dSMTBxch-h30t8ti3iLQZIPN7SPd71bJNCl6NKElmNgBMlJ9l~3DfoVZh2jjr4Ph-pugd3RW00umcGTnmoDgOe60Zc8Ko4XybEOKl~eqYUdRozhKpzZXT-UM1fY9Mf17AOXmQX1vWWygEO6VP4nc6qEXwdfKM1LNncDEKpBFJPqXpsQv~QxHlwX3xmUzWQ2AN3sHV0Pf-mFQ1~idIaYnEBqgDIqRVpfrgUsl11uKvm9xGiwJjPYR~dIcJOnbpkfVl1HeeBkEA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        image: "https://s3-alpha-sig.figma.com/img/61c9/ac76/a43405ebe714471e39ab2c076237dc3d?Expires=1676246400&Signature=jbPBt5dcDqsTu77VW~UCW6m4GHQsYmnORM7-VNX3c0hnoExDYLsX1NJTkcGWd23HeetdcyD6kBLd26eEZPWkexq8h4AfZtuiP1eGki1tj7YhoCcurJT8XCx6VvXaOaRs-Fxhp7dv0lh7qWo4zOUgQyRso7XlcXNP45HpufvDgUcKMpa4QrehGGG2I7v9kBkgPmbhbZgYWnA7DplRXJrv37fqVjvw~dl4LXBPnTDtSdPSt-g1dS-TUs~DI98L0fbh7RCj3pknKBUIox9evxfXBg7RgJWEy0ejIaf5C57FjwEusUNk48IudoXF25SCX6RFkpKcPB9dSbaH4NNC8Kt-rQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
         id:3,
