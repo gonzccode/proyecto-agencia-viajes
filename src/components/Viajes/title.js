@@ -1,8 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react';
 
 const TripsTitle = () => {
+    useEffect(() => {
+        window.location.href = "#titleTrips"
+    });
+
     return (
-        <section>
+        <section id='titleTrips'>
             <div className="rectangularSubtitleContainers">
                 <div className="purpleBgSubtitleContainer">
                     <h1 className="whiteSubtitles">Destinos para vos</h1>

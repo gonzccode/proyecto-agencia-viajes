@@ -1,8 +1,13 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 import iconPay from '../../assets/img/icono_pago.png';
 
 const PayBenefits = () => {
+  useEffect(() => {
+    window.location.href = "#moreInfoHelp"
+  });
+
   return (
     <section id='moreInfoHelp'>
       <div className="frecuentTitleHelp">

@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { Image } from 'react-bootstrap';
 import iconWp from '../../assets/img/icono_wp.png';
 import iconMail from '../../assets/img/icono_mail.png';
@@ -17,6 +18,10 @@ import imagenYoutubeThree from '../../assets/img/imagen_youtube_3.png';
 
 
 const Contacto = () => {
+  useEffect(() => {
+    window.location.href = "#contactSection"
+  });
+
   return (
     <section id='contactSection'>
         <div className="rectangularSubtitleContainers" style={{background:'#F0F0F0'}}>
@@ -90,9 +95,9 @@ const Contacto = () => {
             <div className='container'>
               <div className='row'>
                 <div className='contactSocialIcon col-md-2'>
-                  <div className='contactIconSocial'>
+                  <a className='contactIconSocial' href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank">
                     <Image src={iconoFacebook} alt='contacto mail' width={100} height={100}/>
-                  </div>
+                  </a>
                   <div align='center'>
                     <h5>
                       <b>Facebook</b>
@@ -118,9 +123,9 @@ const Contacto = () => {
             <div className='container'>
               <div className='row'>
                 <div className='contactSocialIcon col-md-2'>
-                  <div className='contactIconSocial'>
+                  <a className='contactIconSocial' href="https://www.instagram.com/lasclarisastours/" target="_blank">
                     <Image src={iconoInstagram} alt='contacto mail' width={100} height={100}/>
-                  </div>
+                  </a>
                   <div align='center'>
                     <h5>
                       <b>Instagram</b>
@@ -146,9 +151,9 @@ const Contacto = () => {
             <div className='container'>
               <div className='row'>
                 <div className='contactSocialIcon col-md-2'>
-                  <div className='contactIconSocial'>
+                  <a className='contactIconSocial' href="https://www.youtube.com/@lasclarisas" target="_blank">
                     <Image src={iconoYoutube} alt='contacto mail' width={100} height={100}/>
-                  </div>
+                  </a>
                   <div align='center'>
                     <h5>
                       <b>Youtube</b>

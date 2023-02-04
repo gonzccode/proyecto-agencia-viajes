@@ -1,10 +1,15 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 import lasClarisasFoto from '../../assets/img/las_clarisas_foto.png';
 import Button from 'react-bootstrap/Button';
 import arrowIcon from '../../assets/img/arrow_icon.png'
 
 const Nosotras = () => {
+  useEffect(() => {
+    window.location.href = "#usSection"
+  });
+
   return (
     <section id='usSection' align='center'>
       <div className="rectangularSubtitleContainers">

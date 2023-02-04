@@ -1,8 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 import iconInformation from '../../assets/img/icono_valija.png';
 
 const UsefulInformation = () => {
+  useEffect(() => {
+    window.location.href = "#moreInfoHelp"
+  });
+
   return (
     <section id='moreInfoHelp'>
       <div className="frecuentTitleHelp">

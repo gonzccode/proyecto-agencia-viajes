@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/img/logo.png';
 import Image from 'react-bootstrap/Image';
 import { NavLink } from 'react-router-dom';
@@ -20,7 +19,7 @@ const NavigationBar = () => {
               <NavLink to="/viajes" className="navLinks">
                 <strong>Viajes</strong>
               </NavLink>
-              <NavLink to="/ayuda" className="navLinks">
+              <NavLink to="/ayuda" className="navLinks" replace >
                 <strong>Ayuda</strong>
               </NavLink>
               <NavLink to="/nosotras" className="navLinks">

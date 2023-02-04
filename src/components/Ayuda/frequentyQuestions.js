@@ -1,8 +1,13 @@
 import React from 'react'
+import { useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 import iconQuestions from '../../assets/img/icono_preguntas.png';
 
 const FrequentyQuestions = () => {
+  useEffect(() => {
+    window.location.href = "#moreInfoHelp"
+  });
+
   return (
     <section id='moreInfoHelp'>
       <div className="frecuentTitleHelp">

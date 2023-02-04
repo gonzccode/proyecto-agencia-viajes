@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 import frequentQuestions from '../../assets/img/preguntas_frecuentes.png';
 import usefulInformation from '../../assets/img/informacion_util.png';
@@ -6,6 +7,11 @@ import payBenefits from '../../assets/img/pago_beneficios.png';
 import { Link } from 'react-router-dom';
 
 const Ayuda = () => {
+
+  useEffect(() => {
+    window.location.href = "#helpSection"
+  });
+
   return (
     <section id='helpSection' align='center'>
       <div className="rectangularSubtitleContainers" style={{background:'#F0F0F0'}}>
