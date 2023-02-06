@@ -618,9 +618,14 @@ footer {
 #usWhyButton {
     background-color: #663399;
     border-radius: 50px;
+    border-style: none;
     margin-top: 30px;
     padding: 12px 23px;
     float: right;
+}
+
+#usWhyButton:hover {
+    background: #BA007C;
 }
 
 /*Contacto*/

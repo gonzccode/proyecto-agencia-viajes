@@ -3,7 +3,8 @@ import { useEffect } from 'react';
 import Image from 'react-bootstrap/Image';
 import lasClarisasFoto from '../../assets/img/las_clarisas_foto.png';
 import Button from 'react-bootstrap/Button';
-import arrowIcon from '../../assets/img/arrow_icon.png'
+import arrowIcon from '../../assets/img/arrow_icon.png';
+import { Link } from 'react-router-dom';
 
 const Nosotras = () => {
   useEffect(() => {
@@ -90,7 +91,7 @@ const Nosotras = () => {
           <p>Tenemos vocación de servicio, trabajando para satisfacer necesidades y superar expectativas, porque tenemos 
             la certeza, de que VIAJAR es el mejor camino para aprender del mundo.</p>
           <br></br>
-         <br></br>
+          <br></br>
           <h2 id="travelWithUs" align='right'>
               <b>
                 ¡Viajá con Nosotras!
@@ -98,9 +99,9 @@ const Nosotras = () => {
           </h2>
         </div>
       </div>
-      <div className='usButton'>
-      <Button variant="primary" size="lg" id="usWhyButton" href='/viajes'>VER PRÓXIMOS VIAJES <Image src={arrowIcon} alt="icono de flecha"/></Button>
-      </div>
+      <Link to="/viajes" className='usButton'>
+        <Button variant="primary" size="lg" id="usWhyButton">VER PRÓXIMOS VIAJES <Image src={arrowIcon} alt="icono de flecha"/></Button>
+      </Link>
     </section>
   )
 }
