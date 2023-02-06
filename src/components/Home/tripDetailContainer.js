@@ -3,6 +3,7 @@ import { customFetch } from "../../utils/customFetch";
 import { detailTrips } from "../../utils/detailTrips";
 import { TripDetail } from './tripDetail';
 import { useParams } from 'react-router-dom';
+import Spinner from 'react-bootstrap/Spinner';
 
 const TripDetailContainer = () => {
 
@@ -23,7 +24,8 @@ const TripDetailContainer = () => {
 
   return (
     <>
-      {!loading ? <TripDetail tripList={tripList} /> : <strong>CARGANDO...</strong>}
+      {!loading ? <TripDetail tripList={tripList} /> : 
+      <Spinner animation="border" />}
     </>
   )
 }
