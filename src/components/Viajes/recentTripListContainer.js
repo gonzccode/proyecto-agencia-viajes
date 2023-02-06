@@ -20,8 +20,12 @@ const RecentTripsListContainer = () => {
     return (
         <> 
             <h3 className="destinationSubtitles">destinos recientes</h3>
-            {!loading ? <RecentTripsList recentTripsList={recentTripsList}/> :
-            <Spinner animation="border" />}
+            {!loading ? <RecentTripsList recentTripsList={recentTripsList}/> 
+            :
+            <div align='center'>
+                <Spinner className='spinnerLoading' animation="border"  role="status"/>
+            </div>
+            }
         </>
     )
 }

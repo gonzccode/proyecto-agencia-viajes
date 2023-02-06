@@ -20,7 +20,12 @@ const DistinguishedTripsListContainer = () => {
     return (
         <> 
             <h3 className="destinationSubtitles">destinos destacados</h3>
-            {!loading ? <DistinguishedTripsList distinguishedTripsList={distinguishedTripsList}/> : <Spinner animation="border" />}
+            {!loading ? <DistinguishedTripsList distinguishedTripsList={distinguishedTripsList}/> 
+            : 
+            <div align='center'>
+                <Spinner className='spinnerLoading' animation="border"  role="status"/>
+            </div>
+            }
         </>
     )
 }

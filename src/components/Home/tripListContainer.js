@@ -15,12 +15,16 @@ const TripsListContainer = () => {
             .then(res => {
                 setLoading(false);
                 setTripsList(res)});
-    }, []);
+}, []);
 
     return (
         <>
-            {!loading ? <TripsList tripsList={tripsList}/> : 
-            <Spinner animation="border" />}
+            {!loading ? <TripsList tripsList={tripsList}/> 
+            : 
+            <div id='spinnerSection'>
+                <Spinner className='spinnerLoading' animation="border"  role="status"/>
+            </div>
+            }
         </>
     )
 }

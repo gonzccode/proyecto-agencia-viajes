@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Image } from 'react-bootstrap';
 import iconWp from '../../assets/img/icono_wp.png';
 import iconMail from '../../assets/img/icono_mail.png';
@@ -15,12 +15,20 @@ import imagenInstagramThree from '../../assets/img/imagen_instagram_3.png';
 import imagenYoutubeOne from '../../assets/img/imagen_youtube_1.png';
 import imagenYoutubeTwo from '../../assets/img/imagen_youtube_2.png';
 import imagenYoutubeThree from '../../assets/img/imagen_youtube_3.png';
-
+import Spinner from 'react-bootstrap/Spinner';
+import Stack from 'react-bootstrap/Stack';
 
 const Contacto = () => {
+  const [loading, setLoading] = useState();
+
   useEffect(() => {
     window.location.href = "#contactSection"
-  });
+    setLoading(true)
+    setTimeout (() => {
+      setLoading(false)
+    }, 3000);
+    
+  }, loading);
 
   return (
     <section id='contactSection'>
@@ -29,154 +37,155 @@ const Contacto = () => {
             <h1 className="secondarySubtitles whiteSubtitles">Contacto</h1>
             </div>
         </div>
-        <div className='contactDirect container' >
-          <div className='row' style={{textAlign:'center'}}>
-            <div className='col-md-2'>
+        {!loading? 
+        <>
+          <div className='contactDirect container' >
+            <div className='row' style={{textAlign:'center'}}>
+              <div className='col-md-2'>
 
-            </div>  
-            <div className='contactCard col-md-4'>
+              </div>  
+              <div className='contactCard col-md-4'>
+                {/* <div className='container'> */}
+                    <Stack direction="horizontal" gap={2}>
+                        <div className="contactIcon">
+                          <Image src={iconWp} alt='contacto whatsapp' width={70} height={70}/>
+                        </div>
+                        <div className='contactIconText'>
+                            <div>
+                              <h5>
+                                <b>
+                                WhatsApp
+                                </b>
+                              </h5>
+                              <p>
+                                <b>
+                                +54 9 2323 533 332
+                                </b>
+                              </p>
+                              <p>
+                              Horario laboral de 8.00hs a 19.00hs
+                              </p>
+                            </div>
+                        </div>
+                    </Stack>
+                {/* </div> */}
+              </div>
+              <div className='contactCard col-md-4'>
+                {/* <div className='container'> */}
+                    <Stack direction="horizontal" gap={2}>
+                        <div className="contactIcon">
+                          <Image src={iconMail} alt='contacto mail' width={70} height={70}/>
+                        </div>
+                        <div className="contactIconText">
+                              <h5>
+                                <b>
+                                Mail
+                                </b>
+                              </h5>
+                              <p>
+                                <b>
+                                lasclarisastours@gmail.com
+                                </b>
+                              </p>
+                              <p>
+                                Horario laboral de 8.00hs a 19.00hs
+                              </p>
+                        </div>
+                    </Stack>
+                {/* </div> */}
+              </div>
+            </div>
+          </div>
+          <div className='contactSocial'>
+            <div className='contactSocialOther'>
               <div className='container'>
-                  <div className='row'>
-                      <div className="contactIcon col-md-4">
-                        <Image src={iconWp} alt='contacto whatsapp' width={70} height={70}/>
-                      </div>
-                      <div className='col-md-7'>
-                          <div>
-                            <h5>
-                              <b>
-                              WhatsApp
-                              </b>
-                            </h5>
-                            <h5>
-                              <b>
-                              +54 9 2323 533 332
-                              </b>
-                            </h5>
-                            <p>
-                            Horario laboral de 8.00hs a 19.00hs
-                            </p>
-                         
-                          </div>
-                      </div>
+                <div className='row'>
+                  <div className='contactSocialIcon col-md-2'>
+                    <a className='contactIconSocial' href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank">
+                      <Image src={iconoFacebook} alt='contacto mail' width={100} height={100}/>
+                    </a>
+                    <div align='center'>
+                      <h5>
+                        <b>Facebook</b>
+                        </h5>
+                      <p>
+                        <b>/LASCLARISASTOURS</b>
+                      </p>
+                    </div>
                   </div>
+                  <div className='contactSocialImageOne col-md-3'>
+                    <Image src={imagenFacebookOne} alt='contacto mail' width={230} height={200} />
+                  </div>
+                  <div className='contactSocialImageTwo col-md-3'>
+                    <Image src={imagenFacebookTwo} alt='contacto mail' width={230} height={200} />
+                  </div>
+                  <div className='contactSocialImageThree col-md-3'>
+                    <Image src={imagenFacebookThree} alt='contacto mail' width={230} height={200}/>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className='contactCard col-md-4'>
+            <div className='contactSocialOther'>
               <div className='container'>
-                  <div className='row'>
-                      <div className="contactIcon col-md-4">
-                        <Image src={iconMail} alt='contacto mail' width={70} height={70}/>
-                      </div>
-                      <div className='col-md-7'>
-                          <div>
-                            <h5>
-                              <b>
-                              Mail
-                              </b>
-                            </h5>
-                            <h5>
-                              <b>
-                              lasclarisastours@gmail.com
-                              </b>
-                            </h5>
-                            <p>
-                            Horario laboral de 8.00hs a 19.00hs
-                            </p>
-                         
-                          </div>
-                      </div>
+                <div className='row'>
+                  <div className='contactSocialIcon col-md-2'>
+                    <a className='contactIconSocial' href="https://www.instagram.com/lasclarisastours/" target="_blank">
+                      <Image src={iconoInstagram} alt='contacto mail' width={100} height={100}/>
+                    </a>
+                    <div align='center'>
+                      <h5>
+                        <b>Instagram</b>
+                        </h5>
+                      <p>
+                        <b>@lasclarisastours</b>
+                      </p>
+                    </div>
                   </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className='contactSocial'>
-          <div className='contactSocialOther'>
-            <div className='container'>
-              <div className='row'>
-                <div className='contactSocialIcon col-md-2'>
-                  <a className='contactIconSocial' href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank">
-                    <Image src={iconoFacebook} alt='contacto mail' width={100} height={100}/>
-                  </a>
-                  <div align='center'>
-                    <h5>
-                      <b>Facebook</b>
-                      </h5>
-                    <p>
-                      <b>/LASCLARISASTOURS</b>
-                    </p>
+                  <div className='contactSocialImageOne col-md-3' style={{marginLeft:'20px'}}>
+                    <Image src={imagenInstagramOne} alt='contacto mail' width={230} height={200} />
                   </div>
-                </div>
-                <div className='contactSocialImageOne col-md-3'>
-                  <Image src={imagenFacebookOne} alt='contacto mail' width={230} height={200} />
-                </div>
-                <div className='contactSocialImageTwo col-md-3'>
-                  <Image src={imagenFacebookTwo} alt='contacto mail' width={230} height={200} />
-                </div>
-                <div className='contactSocialImageThree col-md-3'>
-                  <Image src={imagenFacebookThree} alt='contacto mail' width={230} height={200}/>
+                  <div className='contactSocialImageTwo col-md-3' style={{marginLeft:'10px'}}>
+                    <Image src={imagenInstagramTwo} alt='contacto mail' width={230} height={200} />
+                  </div>
+                  <div className='contactSocialImageThree col-md-3' style={{marginLeft:'10px'}}>
+                    <Image src={imagenInstagramThree} alt='contacto mail' width={230} height={200}/>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className='contactSocialOther'>
-            <div className='container'>
-              <div className='row'>
-                <div className='contactSocialIcon col-md-2'>
-                  <a className='contactIconSocial' href="https://www.instagram.com/lasclarisastours/" target="_blank">
-                    <Image src={iconoInstagram} alt='contacto mail' width={100} height={100}/>
-                  </a>
-                  <div align='center'>
-                    <h5>
-                      <b>Instagram</b>
-                      </h5>
-                    <p>
-                      <b>@lasclarisastours</b>
-                    </p>
+            <div className='contactSocialOther'>
+              <div className='container'>
+                <div className='row'>
+                  <div className='contactSocialIcon col-md-2'>
+                    <a className='contactIconSocial' href="https://www.youtube.com/@lasclarisas" target="_blank">
+                      <Image src={iconoYoutube} alt='contacto mail' width={100} height={100}/>
+                    </a>
+                    <div align='center'>
+                      <h5>
+                        <b>Youtube</b>
+                        </h5>
+                      <p>
+                        <b>@lasclarisas</b>
+                      </p>
+                    </div>
                   </div>
-                </div>
-                <div className='contactSocialImageOne col-md-3' style={{marginLeft:'20px'}}>
-                  <Image src={imagenInstagramOne} alt='contacto mail' width={230} height={200} />
-                </div>
-                <div className='contactSocialImageTwo col-md-3' style={{marginLeft:'10px'}}>
-                  <Image src={imagenInstagramTwo} alt='contacto mail' width={230} height={200} />
-                </div>
-                <div className='contactSocialImageThree col-md-3' style={{marginLeft:'10px'}}>
-                  <Image src={imagenInstagramThree} alt='contacto mail' width={230} height={200}/>
+                  <div className='contactSocialImageOne col-md-3' style={{marginLeft:'20px'}}>
+                    <Image src={imagenYoutubeOne} alt='contacto mail' width={230} height={200} />
+                  </div>
+                  <div className='contactSocialImageTwo col-md-3' style={{marginLeft:'10px'}}>
+                    <Image src={imagenYoutubeTwo} alt='contacto mail' width={230} height={200} />
+                  </div>
+                  <div className='contactSocialImageThree col-md-3' style={{marginLeft:'10px'}}>
+                    <Image src={imagenYoutubeThree} alt='contacto mail' width={230} height={200}/>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className='contactSocialOther'>
-            <div className='container'>
-              <div className='row'>
-                <div className='contactSocialIcon col-md-2'>
-                  <a className='contactIconSocial' href="https://www.youtube.com/@lasclarisas" target="_blank">
-                    <Image src={iconoYoutube} alt='contacto mail' width={100} height={100}/>
-                  </a>
-                  <div align='center'>
-                    <h5>
-                      <b>Youtube</b>
-                      </h5>
-                    <p>
-                      <b>@lasclarisas</b>
-                    </p>
-                  </div>
-                </div>
-                <div className='contactSocialImageOne col-md-3' style={{marginLeft:'20px'}}>
-                  <Image src={imagenYoutubeOne} alt='contacto mail' width={230} height={200} />
-                </div>
-                <div className='contactSocialImageTwo col-md-3' style={{marginLeft:'10px'}}>
-                  <Image src={imagenYoutubeTwo} alt='contacto mail' width={230} height={200} />
-                </div>
-                <div className='contactSocialImageThree col-md-3' style={{marginLeft:'10px'}}>
-                  <Image src={imagenYoutubeThree} alt='contacto mail' width={230} height={200}/>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
+        </> 
+        :
+        <Spinner className='spinnerLoading' animation="border"  role="status"/>
+        }
     </section>
   )
 }
