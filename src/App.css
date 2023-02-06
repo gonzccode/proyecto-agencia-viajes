@@ -299,6 +299,7 @@ footer {
 .contactButtons {
     background-color: #663399;
     border-radius: 50%;
+    border-style: none;
     margin: 30px 15px;
 }
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
@@ -10,6 +10,7 @@ import carnavalGualeguaychu from '../../assets/img/carnaval_gualeguaychu.png';
 import { NavLink } from 'react-router-dom';
 
 const MainCarousel = () => {
+
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex, e) => {
@@ -17,7 +18,7 @@ const MainCarousel = () => {
     };
 
     return (
-        <>
+        <section>
             <div className="carouselContainers">
                 <div id="mainTitleContainer">
                     <h1 id="mainTitle">¡Sumate a experiencias inolvidables <br/>activando todos tus sentidos!</h1>
@@ -65,7 +66,7 @@ const MainCarousel = () => {
                 />
                 </Carousel.Item>
             </Carousel>
-        </>
+        </section>
     );
 }
 
