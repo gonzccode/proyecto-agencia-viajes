@@ -6,6 +6,7 @@ import Button from 'react-bootstrap/Button';
 import arrowIcon from '../../assets/img/arrow_icon.png';
 import { Link } from 'react-router-dom';
 import Spinner from 'react-bootstrap/Spinner';
+import Stack from 'react-bootstrap/Stack';
 
 const Nosotras = () => {
   const [loading, setLoading] = useState();
@@ -77,8 +78,8 @@ const Nosotras = () => {
             <h2 className="secondarySubtitles whiteSubtitles">¿Por qué Las Clarisas?</h2>
           </div>
         </div>
-        <div className='usWhy'>
-          <div className='columnOne'>
+        <Stack className='usWhy' direction="horizontal" gap={2}>
+          <div>
             <p>En un principio, en años universitarios, llegó el momento de las tan ansiadas visitas guiadas. 
               Lo bueno de la cursada era que podías agruparte con tus mejores amigas.</p>
             <br></br>
@@ -91,7 +92,7 @@ const Nosotras = () => {
             de “Las Clarisas” fundada por Santa Clara y San Francisco de Asís.
             </p>
           </div>
-          <div className='columnTwo'>
+          <div>
             <p>Desde ese día nuestro grupo de estudio, pasó a llamarse “Las Clarisas”. En ese afán de aprender 
               un poco de todo, más tarde supimos que Santa Clara es la Patrona de las Comunicaciones y la Televisión.</p>
             <br></br>
@@ -108,7 +109,7 @@ const Nosotras = () => {
                 </b>
             </h2>
           </div>
-        </div>
+        </Stack>
         <Link to="/viajes" className='usButton'>
           <Button variant="primary" size="lg" id="usWhyButton">VER PRÓXIMOS VIAJES <Image src={arrowIcon} alt="icono de flecha"/></Button>
         </Link>

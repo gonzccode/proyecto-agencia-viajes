@@ -16,6 +16,7 @@ import imagenYoutubeOne from '../../assets/img/imagen_youtube_1.png';
 import imagenYoutubeTwo from '../../assets/img/imagen_youtube_2.png';
 import imagenYoutubeThree from '../../assets/img/imagen_youtube_3.png';
 import Spinner from 'react-bootstrap/Spinner';
+import Stack from 'react-bootstrap/Stack';
 
 const Contacto = () => {
   const [loading, setLoading] = useState();
@@ -44,56 +45,54 @@ const Contacto = () => {
 
               </div>  
               <div className='contactCard col-md-4'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className="contactIcon col-md-4">
+                {/* <div className='container'> */}
+                    <Stack direction="horizontal" gap={2}>
+                        <div className="contactIcon">
                           <Image src={iconWp} alt='contacto whatsapp' width={70} height={70}/>
                         </div>
-                        <div className='col-md-7'>
+                        <div className='contactIconText'>
                             <div>
                               <h5>
                                 <b>
                                 WhatsApp
                                 </b>
                               </h5>
-                              <h5>
+                              <p>
                                 <b>
                                 +54 9 2323 533 332
                                 </b>
-                              </h5>
+                              </p>
                               <p>
                               Horario laboral de 8.00hs a 19.00hs
                               </p>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    </Stack>
+                {/* </div> */}
               </div>
               <div className='contactCard col-md-4'>
-                <div className='container'>
-                    <div className='row'>
-                        <div className="contactIcon col-md-4">
+                {/* <div className='container'> */}
+                    <Stack direction="horizontal" gap={2}>
+                        <div className="contactIcon">
                           <Image src={iconMail} alt='contacto mail' width={70} height={70}/>
                         </div>
-                        <div className='col-md-7'>
-                            <div>
+                        <div className="contactIconText">
                               <h5>
                                 <b>
                                 Mail
                                 </b>
                               </h5>
-                              <h5>
+                              <p>
                                 <b>
                                 lasclarisastours@gmail.com
                                 </b>
-                              </h5>
-                              <p>
-                              Horario laboral de 8.00hs a 19.00hs
                               </p>
-                            </div>
+                              <p>
+                                Horario laboral de 8.00hs a 19.00hs
+                              </p>
                         </div>
-                    </div>
-                </div>
+                    </Stack>
+                {/* </div> */}
               </div>
             </div>
           </div>

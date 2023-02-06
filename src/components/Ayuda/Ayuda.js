@@ -27,8 +27,9 @@ const Ayuda = () => {
         </div>
       </div>
       {!loading ? 
-        <div id="helpList" >
-          <div className='row'>
+        <div id="helpList container"  align='center'>
+          {/* <div className='row'> */}
+          <div className='helpListRow row' align='center'>
             <Link className='cardHelp col-md-4' to={"/preguntas-frecuentes"} style={{textDecoration:'none', color:'black'}}>
               <Image src={frequentQuestions} alt='preguntas frecuentes' width={70} height={70} style={{marginTop: '10px'}}/>
               <h4 className="secondarySubtitles" style={{marginTop: '10px'}}><b className="cardTitle">Preguntas Frecuentes</b></h4>
