@@ -15,7 +15,7 @@ const Nosotras = () => {
     <section id='usSection' align='center'>
       <div className="rectangularSubtitleContainers">
         <div className="purpleBgSubtitleContainer">
-          <h2 className="secondarySubtitles whiteSubtitles">Nosotras</h2>
+          <h1 className="secondarySubtitles whiteSubtitles">Nosotras</h1>
         </div>
       </div>
       <div className='usDescription'>

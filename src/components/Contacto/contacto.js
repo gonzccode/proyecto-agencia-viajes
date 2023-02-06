@@ -26,7 +26,7 @@ const Contacto = () => {
     <section id='contactSection'>
         <div className="rectangularSubtitleContainers" style={{background:'#F0F0F0'}}>
             <div className="purpleBgSubtitleContainer">
-            <h2 className="secondarySubtitles whiteSubtitles">Contacto</h2>
+            <h1 className="secondarySubtitles whiteSubtitles">Contacto</h1>
             </div>
         </div>
         <div className='contactDirect container' >
