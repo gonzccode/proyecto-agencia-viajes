@@ -1,7 +1,6 @@
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 import whatsappIcon from '../../assets/img/whatsapp-icon.png';
-import { DetailTitle } from './detailTitle';
 import { DetailData } from './detailData';
 import { DetailInformation } from './detailInformation';
 import Container from 'react-bootstrap/esm/Container';
@@ -11,7 +10,6 @@ import Col from 'react-bootstrap/esm/Col';
 const TripDetail = ({tripList}) => {
   return (
     <section>
-      <DetailTitle/>
       <div id="detailDestinationContainer">
         <h2>próxima sálida</h2>
         <p><b className="tripDestination">{tripList.destination}</b> <b id="tripCity">{tripList.city}</b></p>

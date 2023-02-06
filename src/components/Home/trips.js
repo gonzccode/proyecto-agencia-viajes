@@ -12,7 +12,8 @@ const Trips = () => {
       <div id="frecuentJourneysSubtitleContainer">
         <h2 className="secondarySubtitles"><b id="frecuentJourneys">Salidas frecuentes,</b> <b id="travelWithUs">¡Viajá con nosotras!</b></h2>
       </div>
-      <Stack direction="horizontal">
+      {/* <Stack direction="horizontal"> */}
+      <Stack>
         <div>
           <TripsListContainer/>
         </div>

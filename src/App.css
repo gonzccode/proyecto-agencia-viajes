@@ -228,7 +228,7 @@ footer {
 }
 
 #frecuentJourneysSubtitleContainer {
-    margin: 100px 0px;
+    margin: 100px 0px 50px 0px;
 }
 
 #frecuentJourneys {
@@ -687,6 +687,21 @@ footer {
 
 .contactSocialImageThree {
     margin-left: 10px;
+}
+
+/*Loading Spinner*/
+#spinnerSection{
+    width: 100% !important;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.spinnerLoading {
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 50px;
 }
 
 
