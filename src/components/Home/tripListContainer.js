@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { customFetch } from "../../utils/customFetch";
 import { trips } from "../../utils/trips";
 import { TripsList } from "./tripList";
+import Spinner from 'react-bootstrap/Spinner';
 
 const TripsListContainer = () => {
     
@@ -18,7 +19,8 @@ const TripsListContainer = () => {
 
     return (
         <>
-            {!loading ? <TripsList tripsList={tripsList}/> : <strong>CARGANDO...</strong>}
+            {!loading ? <TripsList tripsList={tripsList}/> : 
+            <Spinner animation="border" />}
         </>
     )
 }

@@ -7,9 +7,11 @@ import payBenefits from '../../assets/img/pago_beneficios.png';
 import { Link } from 'react-router-dom';
 
 const Ayuda = () => {
+  // const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     window.location.href = "#helpSection"
+    
   });
 
   return (
