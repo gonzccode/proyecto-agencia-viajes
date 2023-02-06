@@ -60,7 +60,7 @@ footer {
 }
 
 #buttonsContainer {
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 #footerNavbarContainer {
@@ -72,15 +72,31 @@ footer {
     background-color: #663399;
     border-radius: 100px;
     margin-bottom: 10px;
+    border-style: none;
+}
+
+#regretButton:hover {
+    background: #BA007C;
+}
+
+.socialMediaLinks {
+    text-decoration: none;
 }
 
 .socialMediaButtons {
+    font-weight: bold;
+    text-align: center;
     border: 2px solid #663399;
     border-radius: 50px;
-    text-decoration-line: underline;
     color: #663399;
-    padding: 12px 13px 12px 13px;
+    padding: 13px 15px;
     gap: 16px;
+}
+
+.socialMediaButtons:hover {
+    background: #F0F0F0;
+    color: #663399;
+    border: 2px solid #663399;
 }
 
 .socialMediaIcons {
@@ -124,6 +140,14 @@ footer {
 
 .footerIcons {
     margin-right: 10px;
+}
+
+.mailLink {
+    text-decoration: none;
+}
+
+.whatsAppLink {
+    text-decoration: none;
 }
 
 /*Home*/
@@ -173,8 +197,13 @@ footer {
     background: #663399;
     box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.8);
     border-radius: 50px;
+    border-style: none;
     padding: 12px 23px;
     gap: 16px;
+}
+
+#seeNextTripsButton:hover {
+    background: #BA007C;
 }
 
 .rectangularSubtitleContainers {
@@ -252,11 +281,12 @@ footer {
     align-items: flex-end;
 }
 
-.seeMoreButtons {
+.seeTripsButtons {
     background-color: #663399;
     border-radius: 50px;
-    padding: 12px 23px;
+    border-style: none;
     margin-left: 25px;
+    margin-bottom: 25px;
 }
 
 #contactButtonsContainer {
@@ -296,8 +326,13 @@ footer {
 #knowUsButton {
     background-color: #663399;
     border-radius: 50px;
+    border-style: none;
     margin-top: 30px;
     padding: 12px 23px;
+}
+
+#knowUsButton:hover{
+    background: #BA007C;
 }
 
 #clarisasImage {
@@ -315,9 +350,28 @@ footer {
 
 .writeUsButton {
     text-transform: uppercase;
-    background-color: #BA007C;
+    background: #BA007C;
     box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
+    border-style: none;
+}
+
+.writeUsButton:hover {
+    background: #663399;
+}
+
+.pinkHoverButtons:hover {
+    background: #BA007C;
+} 
+
+.swiper-button-prev:after {
+    color:#BA007C;
+    margin: 50px;
+}
+
+.swiper-button-next:after {
+    color:#BA007C;
+    margin: 50px;
 }
 
 /*Viajes*/

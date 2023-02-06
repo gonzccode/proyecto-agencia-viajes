@@ -5,7 +5,7 @@ export const detailTrips = [
         city:"/ Entre Ríos",
         title:"Disfruta todo el año",
         text:"Colón, Entre Ríos se disfruta todo el año. Entretenimiento y actividades para todas las edades. Ideal para visitar con amigos o la familia.",
-        image: "https://s3-alpha-sig.figma.com/img/c990/77e2/d55c45eed4afe11e69401f05d65b2af9?Expires=1675036800&Signature=C~vS~0v0BJ4Pw-5VaLgeIRUC9c2f7ciJn0tN0fokNdm00Z-ZG-qSdn4VeRib4mAs752FcvVFTsvKjUPC81o8mXB8ItUAx3n9rqbRb5IJBhzhzi4C8qEhZm7sM5yeIzemBXj2gFaPYIEPTotdXTZ5vSRveztLDFFu6nUkaIgPo0KgrAb~rFg7OIyaO0EkfFWqaZzENnsBtVV8Bldz9J~uJjqPqFgxVUjs1cTjwI1WAcXFvuqKmhkFw0Cnt86q70BzHiAcRQY1AaXMBICVY2C95rL9OBIgPBkDXtgubTpMZAhPA9LqhECFAdBtOcgcpNjmCjGv91kim-FRw8FHncT9iA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        image: "https://s3-alpha-sig.figma.com/img/c990/77e2/d55c45eed4afe11e69401f05d65b2af9?Expires=1676246400&Signature=MBiNWqc6lxue0uBJ-~WhkmKhE8HMcNTPc9SOMlwwjvB6yBbprVU795pMUQWAmbFNFL9R86EsULfcZUsy173I~EJ0AZ9mDcB0lzOs4igEiqoruhEFuP8edcZ~8A90EsscZRizfqV4cS7KPfYm49chh~9D~ryR-frDoVFs7VoJAG5m~WzOcw5gS5GUOkw2-LWtSJF1JP-v9ElldZWPDbc-8uVA~KBfHnr7N3mo86ItsMaNAELe1dRqsg3JXISnVkFhlve8XfaPgc7rBaMhz3aQX0qCz~22nEXRFdDwZI0IhlBER33A14bv~1OC~mwwd2g4wvK~FIAuNi431NzUKhWZ9Q__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
         id:2,
@@ -21,7 +21,7 @@ export const detailTrips = [
         city: "/ Entre Ríos",
         title: "Disfruta de los Carnavales de ",
         text: "Gualeguaychú, Entre ríos palpita el Carnaval del país. Un espectáculo mágico lleno de color y alegría. Sumate a nuestra próxima salida y que la fiesta dure todo el año.",
-        image: "https://s3-alpha-sig.figma.com/img/bdcb/6a01/2712fb7fdaa7f7efb4ab2090d13af339?Expires=1675036800&Signature=aKLUX2bnkZfDbMLkhGE5quRKe-~QBRAkdeIYpPR8u5~AZZBZ3LyQp~dcKKhEu~QCPDwOfZU3~nHmHwdJSwccsQ8mWaDyVMIijtLFzwZmGpyrojohc4bIwXvucxO0vpgBN3T1to7KDwL4s1pOccyS4OzbGtrydHw~p61pP5-I7Eq6LRjxUnbagM6o5eX6CSagOCfYQeysZSjHA895bYMRoqXUyIkba19f9U~hJEUWJWEZIc5ZYHMuPiqyj5MLxiWAmzpqJBOup6dbHoVSczQvcL7~4FoylFIAjgAnGRM6szyJCuZj-Nc~XBTGoKNczU8YqOfrE7BVpUm1ByUoB73OKg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        image: "https://s3-alpha-sig.figma.com/img/bdcb/6a01/2712fb7fdaa7f7efb4ab2090d13af339?Expires=1676246400&Signature=nyyluLAlC7-YbYYSalOZqhqGchzvM81KgrDk~1EIylEMz5VXHSTH4iZ3XtEdDTddfy1gdATXAvJ3G4h7wwNscXKJRKALVBYHxMD~uNV2MtLqnjP9afQijmb1CJV87SRuRf-thmWMyuXO1kMXN0j-WmeDfObtNZ8qICEoJkV95kIyCWc0-naJsevM55RtljaqeB1s~PMARZKd3DxCGSoKVDNABDQyQqgYJ4LgUwhT32eeEWTCEKyg6ZqQ1ckF~1AcKO-Ll3mdjZ~erOadwfQC5OIP5OpZdDoIlLY2mEBeUEITAXX7Vu7ypzMiA9yKr3Ps8EFjK9RPgi99oDF9crXNSw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
         id:4,
@@ -37,14 +37,14 @@ export const detailTrips = [
         city:"/ Buenos Aires",
         title:"Una experiencia única en ",
         text:"Viví Tigre, una experiencia inolvidable. Muy cerca de la Ciudad de Buenos Aires existe un lugar donde los autos se convierten en lanchas y el tiempo tiene otro ritmo. Tigre se convierte en el lugar ideal para pasar el día o el fin de semana. Recorrer su extenso Delta, es una experiencia única. No dejes de visitarlo.",
-        image: "https://s3-alpha-sig.figma.com/img/6071/472f/5321fd5a5d3c3166bc48712ad063e630?Expires=1675036800&Signature=OW46WWR4UZZPNeAvQTOUwneZNBWgkATABbX4u1iNZmQW2vqhA3n9GuZK1Efyxm3s0VY7OqPbtwM5U2kacdt-dZy760EhK0jSGRAmwLSHbcq-mtE8BA49QCeoHpXD0ZmhqwEFIVic~xqm9hmkKKfexIpAvyIqUy7WjOSwHZzar7VT1E6F-uQqY2-IUz2SU~yfeWgntuLrnGLOStDU7vN7umTU-8BKeYEPBkuVQfa0nS9DgHXFM9WZGlMc7EwqIigOBLnk4NSwB9oPHX51G0Du5BGPJTuEw7V~pQuROXsTH-3zdd9zwGKgYPsj80xKr01pdsYtRzhB9XvtEELzkPdRDA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        image: "https://s3-alpha-sig.figma.com/img/6071/472f/5321fd5a5d3c3166bc48712ad063e630?Expires=1676246400&Signature=V-~zpW4v6iVisiWLMtVP47HNS8G2RHMDkm2ZyNNo2w909c9hHfQgSNowoYl6vuWHNPyPUNc3oO2FkKM1hJ09-aCNWMGEsgwkpmYMGfAYQ3rYTKriL2AS1DxP2C2FuNkvRzfnwes2IwCR2zsUTevy3GQAPsSZFZ0j0OGlqzJucfMbmP2b05zlQxt48wURUJ~ngvqBXqPSBvSlWhbdJIIRM6ehbLx2w94svGsNBoKesLSgjnQTCaqiIwNeSJyFBgFH0Tiwb2NEbDQxQrZ-QjPciji1dKhpDe6Ws4gCxpgcnWPiiYX9UGOEMT6rJM5Ttfvrna-b-mJbkR9mg3l60nuimg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     },
     {
         id:6,
         destination: "San Rafael",
         city:"/ Mendoza",
-        title:"Visita los viñedos de ",
-        text:"Actualmente este viaje se encuentra en proceso, pero compartiremos más información al respecto. ¿Qué otro destino te gustaría conocer?",
-        image: "https://s3-alpha-sig.figma.com/img/9121/035e/b8bf88cd4c6ce4648380b4be9be9ad89?Expires=1675036800&Signature=QnoOg3hp~b02NV~-BSofSwcJFKKa7yt9zYosn9zCMAw7fnSk72VbfLTPX1k2XjRomvoNPVdIPzWMMyHa9akH-jvd1v9rJf32SBQ0GCijRfwH6ReMg-ZKxvZhGiSF4-ks2NRsE7sIh~jI5bmbGvWvXwQafTO7hq2mzQtuMnBm7d6CwbjQFkSCzN6iU~owhZbo0I2P04z38yuo~3hs9eRkXQPzkSeSoBVLeqjz~ZSKb~YxZltrkQkPhp3rpjD33cxn49W6deOF5iB634YJMmsmd4slJo1DPtjnE2gMUFYhK9rCMGbNi8qX779avZsr81fQD58n7sth50WTCuBkuDluZA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        title:"Paisajes y sabores en ",
+        text: "Cuando visitás San Rafael y sus alrededores te enamoras de su entorno rico en belleza natural y buen clima. Con actividades aventureras como rafting, kayak, trekking e increíbles rutas panorámicas y excelentes bodegas. San Rafael tiene algo especial para ofrecernos a cada uno. Consultá próximas salidas",
+        image: "https://s3-alpha-sig.figma.com/img/9121/035e/b8bf88cd4c6ce4648380b4be9be9ad89?Expires=1676246400&Signature=ZZpMOiX-W6X6WGA9P7A0LgV1v4UL9xWgIswaViEghumfVZYex~kR4swT998gb3drUPw42rEHp6aNUB5NVlBwqfLKoJHSKiZQzA~aU6l~f7Ck58uvZn38sIb0CbjLUa0E46K3GxE9S2kUyyRGnomLUDQHWrO9vYZdOfT4plZviIZb5eoaNFJsBe2AnpVhlDkR3ojyJ~zUOxPbgTeClXdS27vrzP7KvjefoxzxwdTZqUxPfqEECVOdCqpUsjvV9W9TfMvAAaBhBNgrZvzmwGungnVNqo6Wk7s1KEV5NQagN0rA8~xOdL7G7u4yFYnp8bha~eNp05l6SJmCI2mlGXQMfg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
     }
 ];

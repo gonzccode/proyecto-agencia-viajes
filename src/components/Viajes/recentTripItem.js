@@ -17,7 +17,7 @@ const RecentTripItem = ({ recentTrip }) => {
                         </Col>
                         <Col className="cardButtonContainers">
                             <NavLink to={`detalle/${recentTrip.id}`}>
-                                <Button variant="primary" className="seeMoreButtons">VER MÁS</Button>
+                                <Button variant="primary" className="seeTripsButtons pinkHoverButtons">VER MÁS</Button>
                             </NavLink>
                         </Col>
                     </Row>

@@ -27,7 +27,9 @@ const TripDetail = ({tripList}) => {
           </Col>
           <Col id="detailButtonCol">
             <div>
-              <Button variant="primary" size="lg" className="writeUsButton"><Image src={whatsappIcon} alt="icono de whatsapp"/> Consultános</Button>{' '}
+              <a  href="https://wa.me/+5492323533332" target="_blank">
+                <Button variant="primary" size="lg" className="writeUsButton"><Image src={whatsappIcon} alt="icono de whatsapp"/> Consultános</Button>{' '}
+              </a>
             </div>
           </Col>
         </Row>

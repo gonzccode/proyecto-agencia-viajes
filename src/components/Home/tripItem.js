@@ -19,7 +19,7 @@ const TripItem = ({ trip }) => {
                         </Col>
                         <Col className="cardButtonContainers">
                             <NavLink to="/viajes">
-                                <Button variant="primary" className="seeMoreButtons">VER VIAJES</Button>
+                                <Button variant="primary" className="seeTripsButtons pinkHoverButtons">VER VIAJES</Button>
                             </NavLink>
                         </Col>
                     </Row>

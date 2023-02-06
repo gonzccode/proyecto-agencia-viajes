@@ -17,7 +17,7 @@ const DistinguishedTripItem = ({ distinguishedTrip }) => {
                         </Col>
                         <Col className="cardButtonContainers">
                             <NavLink to={`detalle/${distinguishedTrip.id}`}>
-                                <Button variant="primary" className="seeMoreButtons">VER MÁS</Button>
+                                <Button variant="primary" className="seeTripsButtons pinkHoverButtons">VER MÁS</Button>
                             </NavLink>
                         </Col>
                     </Row>
