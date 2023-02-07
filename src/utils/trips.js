@@ -2,7 +2,7 @@ export const trips = [
     {
         id:1,
         destination: "Colón, Entre Ríos",
-        image: "https://s3-alpha-sig.figma.com/img/a36c/89c3/197ba383c2ec7f64a7cdb8b71af64c5f?Expires=1674432000&Signature=qrxN-0eQgfawBqAJxSIh8fSEA0oYuHqqE31cnmeRl7JrB1QVQlJtHlDD3f7adMrUGDg7nUnU6OJhe7VEb0C5lQcNt1FaUSa3dLYNTWB5w6-XHuQdsnZbLf-xUnrdwb-I2mtc31CUslmH1FqUA-80tmu9rI~jVca4pJccvETcTM8ZQ7a3lGm0m81pJgujtuEWH6zVTwDWFMwKjW4OVKpx2fZfnCGUFt8vWVCdhwEldz-VV-dci~m4qQFwdC-xaYtQETKCSdREOyn4qYS5GJW75Qa-iuJ9EK94pQ2IFgeW3AAtp2ecK4qMXVsy--qxlVDT7mOSpuCBVrJ71GBTJux-Dw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+        image: "https://lh3.google.com/u/0/d/1L7UclL1JpW6qqvowPU12r91fMm9aiLZ4=w1366-h617-iv1"
     },
     {
         id:2,
