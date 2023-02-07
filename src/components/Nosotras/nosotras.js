@@ -79,7 +79,7 @@ const Nosotras = () => {
           </div>
         </div>
         <Stack className='usWhy' direction="horizontal" gap={2}>
-          <div>
+          <div >
             <p>En un principio, en años universitarios, llegó el momento de las tan ansiadas visitas guiadas. 
               Lo bueno de la cursada era que podías agruparte con tus mejores amigas.</p>
             <br></br>
@@ -92,7 +92,7 @@ const Nosotras = () => {
             de “Las Clarisas” fundada por Santa Clara y San Francisco de Asís.
             </p>
           </div>
-          <div>
+          <div style={{marginTop:'50px'}}>
             <p>Desde ese día nuestro grupo de estudio, pasó a llamarse “Las Clarisas”. En ese afán de aprender 
               un poco de todo, más tarde supimos que Santa Clara es la Patrona de las Comunicaciones y la Televisión.</p>
             <br></br>

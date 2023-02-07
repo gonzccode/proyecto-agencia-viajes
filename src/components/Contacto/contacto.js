@@ -8,7 +8,7 @@ import iconoInstagram from '../../assets/img/icono_instagram.png';
 import iconoYoutube from '../../assets/img/icono_youtube.png';
 import imagenFacebookOne from '../../assets/img/imagen_facebook_1.png';
 import imagenFacebookTwo from '../../assets/img/imagen_facebook_2.png';
-import imagenFacebookThree from '../../assets/img/imagen_facebook_3.png';
+import imagenFacebookThree from '../../assets/img/imagen_facebook_3.jpg';
 import imagenInstagramOne from '../../assets/img/imagen_instagram_1.png';
 import imagenInstagramTwo from '../../assets/img/imagen_instagram_2.png';
 import imagenInstagramThree from '../../assets/img/imagen_instagram_3.png';
@@ -124,7 +124,7 @@ const Contacto = () => {
                     <Image src={imagenFacebookTwo} alt='contacto mail' width={230} height={200} />
                   </div>
                   <div className='contactSocialImageThree col-md-3'>
-                    <Image src={imagenFacebookThree} alt='contacto mail' width={230} height={200}/>
+                    <Image src={imagenFacebookThree} alt='contacto mail' width={230} height={200} style={{borderRadius: '25px'}}/>
                   </div>
                 </div>
               </div>
