@@ -48,7 +48,9 @@ const Contacto = () => {
                 {/* <div className='container'> */}
                     <Stack direction="horizontal" gap={2}>
                         <div className="contactIcon">
-                          <Image src={iconWp} alt='contacto whatsapp' width={70} height={70}/>
+                          <a  href="https://wa.me/+5492323533332" target="_blank">
+                            <Image src={iconWp} alt='contacto whatsapp' width={70} height={70}/>
+                          </a>
                         </div>
                         <div className='contactIconText'>
                             <div>
@@ -74,7 +76,9 @@ const Contacto = () => {
                 {/* <div className='container'> */}
                     <Stack direction="horizontal" gap={2}>
                         <div className="contactIcon">
+                        <a href="mailto:lasclarisastours@gmail.com" target="_blank">
                           <Image src={iconMail} alt='contacto mail' width={70} height={70}/>
+                        </a>
                         </div>
                         <div className="contactIconText">
                               <h5>

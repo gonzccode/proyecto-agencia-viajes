@@ -15,7 +15,9 @@ const Footer = () => {
         <footer>
             <Stack direction="horizontal" id="complaintContainerSection">
                 <div id="complaintContainer">
-                    <Button variant="primary" size="lg" id="regretButton">BOTON DE ARREPENTIMIENTO</Button>{' '}
+                    <a  href="https://wa.me/+5492323533332" target="_blank">
+                        <Button variant="primary" size="lg" id="regretButton">BOTON DE ARREPENTIMIENTO</Button>{' '}
+                    </a>
                     <p><b>Ley 24.240 -<br/>Autoridad Nacional de aplicación<br/> Defensa del Consumidor,<br/></b> para realizar reclamos ingrese <a href='https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes' target="_blank">aquí<br/> (DENUNCIA CONTRA UNA AGENCIA)</a></p>
                 </div>
                 <div>
