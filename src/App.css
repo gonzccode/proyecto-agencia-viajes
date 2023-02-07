@@ -382,7 +382,7 @@ footer {
 }
 
 .writeUsButton:hover {
-    background: #663399;
+    background: red;
 }
 
 .pinkHoverButtons:hover {
