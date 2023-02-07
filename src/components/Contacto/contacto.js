@@ -65,7 +65,9 @@ const Contacto = () => {
                                 </b>
                               </p>
                               <p>
-                              Horario laboral de 8.00hs a 19.00hs
+                                Horario laboral de
+                                <br></br>
+                                8.00hs a 19.00hs
                               </p>
                             </div>
                         </div>
@@ -92,7 +94,9 @@ const Contacto = () => {
                                 </b>
                               </p>
                               <p>
-                                Horario laboral de 8.00hs a 19.00hs
+                                Horario laboral de
+                                <br></br>
+                                8.00hs a 19.00hs
                               </p>
                         </div>
                     </Stack>
