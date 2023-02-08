@@ -48,7 +48,7 @@ const Contacto = () => {
                 {/* <div className='container'> */}
                     <Stack direction="horizontal" gap={2}>
                         <div className="contactIcon">
-                          <a  href="https://wa.me/+5492323533332" target="_blank">
+                          <a  href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">
                             <Image src={iconWp} alt='contacto whatsapp' width={70} height={70}/>
                           </a>
                         </div>
@@ -76,7 +76,7 @@ const Contacto = () => {
                 {/* <div className='container'> */}
                     <Stack direction="horizontal" gap={2}>
                         <div className="contactIcon">
-                        <a href="mailto:lasclarisastours@gmail.com" target="_blank">
+                        <a href="mailto:lasclarisastours@gmail.com" target="_blank" rel="noopener noreferrer">
                           <Image src={iconMail} alt='contacto mail' width={70} height={70}/>
                         </a>
                         </div>
@@ -105,7 +105,7 @@ const Contacto = () => {
               <div className='container'>
                 <div className='row'>
                   <div className='contactSocialIcon col-md-2'>
-                    <a className='contactIconSocial' href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank">
+                    <a className='contactIconSocial' href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank" rel="noopener noreferrer">
                       <Image src={iconoFacebook} alt='contacto mail' width={100} height={100}/>
                     </a>
                     <div align='center'>
@@ -133,7 +133,7 @@ const Contacto = () => {
               <div className='container'>
                 <div className='row'>
                   <div className='contactSocialIcon col-md-2'>
-                    <a className='contactIconSocial' href="https://www.instagram.com/lasclarisastours/" target="_blank">
+                    <a className='contactIconSocial' href="https://www.instagram.com/lasclarisastours/" target="_blank" rel="noopener noreferrer">
                       <Image src={iconoInstagram} alt='contacto mail' width={100} height={100}/>
                     </a>
                     <div align='center'>
@@ -161,7 +161,7 @@ const Contacto = () => {
               <div className='container'>
                 <div className='row'>
                   <div className='contactSocialIcon col-md-2'>
-                    <a className='contactIconSocial' href="https://www.youtube.com/@lasclarisas" target="_blank">
+                    <a className='contactIconSocial' href="https://www.youtube.com/@lasclarisas" target="_blank" rel="noopener noreferrer">
                       <Image src={iconoYoutube} alt='contacto mail' width={100} height={100}/>
                     </a>
                     <div align='center'>

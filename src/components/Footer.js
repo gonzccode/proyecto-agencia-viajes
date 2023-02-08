@@ -15,10 +15,10 @@ const Footer = () => {
         <footer>
             <Stack direction="horizontal" id="complaintContainerSection">
                 <div id="complaintContainer">
-                    <a  href="https://wa.me/+5492323533332" target="_blank">
+                    <a  href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">
                         <Button variant="primary" size="lg" id="regretButton">BOTON DE ARREPENTIMIENTO</Button>{' '}
                     </a>
-                    <p><b>Ley 24.240 -<br/>Autoridad Nacional de aplicación<br/> Defensa del Consumidor,<br/></b> para realizar reclamos ingrese <a href='https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes' target="_blank">aquí<br/> (DENUNCIA CONTRA UNA AGENCIA)</a></p>
+                    <p><b>Ley 24.240 -<br/>Autoridad Nacional de aplicación<br/> Defensa del Consumidor,<br/></b> para realizar reclamos ingrese <a href='https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes' target="_blank" rel="noopener noreferrer">aquí<br/> (DENUNCIA CONTRA UNA AGENCIA)</a></p>
                 </div>
                 <div>
                     <NavLink to="/">
@@ -26,13 +26,13 @@ const Footer = () => {
                     </NavLink>
                 </div>
                 <div id="buttonsContainer">
-                    <a href="https://www.youtube.com/@lasclarisas" target="_blank" className="socialMediaLinks">
+                    <a href="https://www.youtube.com/@lasclarisas" target="_blank" rel="noopener noreferrer" className="socialMediaLinks">
                         <Button variant="outline-primary" className="socialMediaButtons">YOUTUBE <Image src={youtubeIcon} alt="icono de youtube" className="socialMediaIcons"/></Button>{' '}
                     </a>
-                    <a href="https://www.instagram.com/lasclarisastours/" target="_blank" className="socialMediaLinks">
+                    <a href="https://www.instagram.com/lasclarisastours/" target="_blank" rel="noopener noreferrer" className="socialMediaLinks">
                         <Button variant="outline-primary" className="socialMediaButtons">INSTAGRAM <Image src={instagramIcon} alt="icono de instagram" className="socialMediaIcons"/></Button>{' '}
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank" className="socialMediaLinks">
+                    <a href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank" rel="noopener noreferrer" className="socialMediaLinks">
                         <Button variant="outline-primary" className="socialMediaButtons">FACEBOOK <Image src={facebookIcon} alt="icono de facebook" className="socialMediaIcons"/></Button>{' '}
                     </a>
                 </div>
@@ -70,13 +70,13 @@ const Footer = () => {
             </section>
             <Stack direction="horizontal" id="footerDataContainer">
                 <div>
-                    <a href="mailto:lasclarisastours@gmail.com" target="_blank" className="footerDataIconsBoxes footerDataBoxes mailLink">
+                    <a href="mailto:lasclarisastours@gmail.com" target="_blank" rel="noopener noreferrer" className="footerDataIconsBoxes footerDataBoxes mailLink">
                         <Image src={emailIcon} alt="icono email" width={20} height={16} className="footerIcons"/>
                         <p className="footerDataText">lasclarisastours@gmail.com</p>
                     </a>
                 </div>
                 <div>
-                    <a href="https://wa.me/+5492323533332" target="_blank" className="footerDataIconsBoxes footerDataBoxes whatsAppLink">
+                    <a href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer" className="footerDataIconsBoxes footerDataBoxes whatsAppLink">
                         <Image src={whatsappIcon} alt="icono whatsapp" width={19.9} height={20} className="footerIcons"/>
                         <p className="footerDataText">+54 2323 53 3332</p>
                     </a>
