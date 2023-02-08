@@ -11,7 +11,7 @@ const TripDetail = ({tripList}) => {
   return (
     <section>
       <div id="detailDestinationContainer">
-        <h2>próxima sálida</h2>
+        <h2>próxima salida</h2>
         <p><b className="tripDestination">{tripList.destination}</b> <b id="tripCity">{tripList.city}</b></p>
       </div>
       <div id="detailImageContainer">
@@ -25,8 +25,8 @@ const TripDetail = ({tripList}) => {
           </Col>
           <Col id="detailButtonCol">
             <div>
-              <a  href="https://wa.me/+5492323533332" target="_blank">
-                <Button variant="primary" size="lg" className="writeUsButton"><Image src={whatsappIcon} alt="icono de whatsapp"/> Consultános</Button>{' '}
+              <a  href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">
+                <Button variant="primary" size="lg" className="writeUsButton"><Image src={whatsappIcon} alt="icono de whatsapp"/> Consultanos</Button>{' '}
               </a>
             </div>
           </Col>

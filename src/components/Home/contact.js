@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <section>
         <div>
-            <h2 className="secondarySubtitles" id="writeUs">Escribenos para más información</h2>
+            <h2 className="secondarySubtitles" id="writeUs">Escribinos para más información</h2>
         </div>
         <Stack direction="horizontal" id="contactButtonsContainer"> 
         <a href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">

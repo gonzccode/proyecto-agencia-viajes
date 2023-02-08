@@ -48,7 +48,7 @@ const FrequentyQuestions = () => {
                 Ley 24.240 - Autoridad Nacional de aplicación
                 <ul>
                   <li>
-                    En defensa de los Consumidores para realizar reclamos ingrese <a href={'https://autogestion.produccion.gob.ar/consumidores'} target="_blank">aquí (DENUNCIA CONTRA UNA AGENCIA)</a>.
+                    En defensa de los Consumidores para realizar reclamos ingrese <a href={'https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes'} target="_blank" rel="noopener noreferrer">aquí (DENUNCIA CONTRA UNA AGENCIA)</a>.
                   </li>
                 </ul>
               </div>
@@ -62,7 +62,7 @@ const FrequentyQuestions = () => {
               <div>
                 <ul>
                   <li>
-                  Para cancelar una reserva debe dirigirse al BOTON DE ARREPENTIMIENTO ubicado en el pie de pagina, o realizando <a href='#regretButton'>click aqui</a>.
+                  Para cancelar una reserva debe dirigirse al BOTON DE ARREPENTIMIENTO ubicado en el pie de pagina, o realizando <a href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">click aqui</a>.
                   </li>
                   <li>
                   Su solicitud de revocación sólo procederá en caso que ud. haya realizado la compra vía web, Whatsapp o telefónicamente, y la misma se haya concretado dentro de los 10 días anteriores a la fecha.

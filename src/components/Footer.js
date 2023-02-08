@@ -4,7 +4,6 @@ import logo from '../assets/img/logo.png';
 import Image from 'react-bootstrap/Image';
 import instagramIcon from '../assets/img/instagram_icon.png';
 import facebookIcon from '../assets/img/facebook_icon.png';
-import dataFiscalAfip from '../assets/img/data_fiscal_afip.png';
 import emailIcon from '../assets/img/email_icon.png';
 import whatsappIcon from '../assets/img/whatsapp_icon.png';
 import youtubeIcon from '../assets/img/youtube_icon.png';
@@ -16,7 +15,7 @@ const Footer = () => {
             <Stack direction="horizontal" id="complaintContainerSection">
                 <div id="complaintContainer">
                     <a  href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">
-                        <Button variant="primary" size="lg" id="regretButton">BOTON DE ARREPENTIMIENTO</Button>{' '}
+                        <Button variant="primary" size="lg" id="regretButton">BOTÓN DE ARREPENTIMIENTO</Button>{' '}
                     </a>
                     <p><b>Ley 24.240 -<br/>Autoridad Nacional de aplicación<br/> Defensa del Consumidor,<br/></b> para realizar reclamos ingrese <a href='https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes' target="_blank" rel="noopener noreferrer">aquí<br/> (DENUNCIA CONTRA UNA AGENCIA)</a></p>
                 </div>
@@ -51,7 +50,6 @@ const Footer = () => {
                             <strong>Nosotras</strong>
                         </NavLink>
                     </nav>
-                    <Image src={dataFiscalAfip} alt="data fiscal afip qr"/>
                 </div>
             </Stack>
             <section id="consumerProtectionSection">
@@ -82,7 +80,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className=" footerDataBoxes">
-                    <p className="footerDataText">Cuit:  27-22860360--6</p>
+                    <p className="footerDataText">Cuit: 27-22860360-6</p>
                 </div>
                 <div className=" footerDataBoxes">
                     <p className="footerDataText">FERRARI ANDREA LILIANA Permiso Precario nro. 2022-122124155</p>

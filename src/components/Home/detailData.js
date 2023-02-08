@@ -1,4 +1,3 @@
-import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/esm/Image';
 import busIcon from '../../assets/img/bus_icon.png';
 import ticketIcon from '../../assets/img/ticket_icon.png';

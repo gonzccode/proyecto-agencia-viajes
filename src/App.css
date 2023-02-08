@@ -90,6 +90,7 @@ footer {
 #footerNavbarContainer {
     display: flex;
     flex-direction: row;
+    margin-left: 50px;
 }
 
 #regretButton {
@@ -382,7 +383,7 @@ footer {
 }
 
 .writeUsButton:hover {
-    background: red;
+    background:  #663399;
 }
 
 .pinkHoverButtons:hover {

@@ -14,7 +14,7 @@ const TripItem = ({ trip }) => {
                 <Container>
                     <Row>
                         <Col>
-                            <Card.Subtitle className="mb-2 cardSubtitle">Próxima sálida</Card.Subtitle>
+                            <Card.Subtitle className="mb-2 cardSubtitle">Próxima salida</Card.Subtitle>
                             <Card.Title className="cardTitle">{trip.destination}</Card.Title>
                         </Col>
                         <Col className="cardButtonContainers">
