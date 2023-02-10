@@ -6,7 +6,7 @@ const ButtonFixed = () => {
     return (
         <div id="buttonFixed">
             <a  href="https://wa.me/+5492323533332" target="_blank">
-                <Button variant="primary" size="lg" className="writeUsButton"><Image src={whatsappIcon} alt="icono de whatsapp"/> ¡Escribenos!</Button>{' '}
+                <Button variant="primary" size="lg" className="writeUsButton"><Image src={whatsappIcon} alt="icono de whatsapp"/> ¡Escribinos!</Button>{' '}
             </a>
         </div>
     )
