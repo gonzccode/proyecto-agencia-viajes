@@ -26,6 +26,18 @@ p {
     font-size: 14px;
 }
 
+.rectangularSubtitleContainers {
+    display: grid;
+    place-items: center;
+    padding: 100px 0px 50px 0px;
+}
+
+.purpleBgSubtitleContainer {
+    background-color: #663399;
+    padding: 10px 70px;
+    margin-top: 50px;
+}
+
 /*Header*/
 
 header {
@@ -231,18 +243,6 @@ footer {
     background: #BA007C;
 }
 
-.rectangularSubtitleContainers {
-    display: grid;
-    place-items: center;
-    padding: 100px 0px 50px 0px;
-}
-
-.purpleBgSubtitleContainer {
-    background-color: #663399;
-    padding: 10px 70px;
-    margin-top: 50px;
-}
-
 .secondarySubtitles {
     text-align: center;
 }
@@ -328,6 +328,11 @@ footer {
     margin: 30px 15px;
 }
 
+.whatsAppButton {
+    width: 78px;
+    height: 78px;
+}
+
 .contactLogos {
     padding: 15px;
 }
@@ -342,6 +347,7 @@ footer {
     color: #BA007C;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #clarisasInformationCol {
@@ -364,6 +370,8 @@ footer {
 #clarisasImage {
     filter: drop-shadow(2px 4px 25px rgba(0, 0, 0, 0.25));
     border-radius: 25px;
+    width: 503px;
+    height: 352px;
 }
 
 #buttonFixed {
@@ -441,6 +449,7 @@ footer {
 .leftInformationContainer div h3{
     margin-top: 60px;
     font-size: 28px;
+    font-weight: bold;
 }
 
 #detailDestinationContainer {
@@ -476,6 +485,8 @@ footer {
 
 #detailImageContainer img {
     padding: 20px;
+    width: 1230px;
+    height: 478px;
 }
 
 #detailTextCol {
@@ -514,6 +525,10 @@ footer {
 
 #detailTripServices {
     margin: 40px 0px 40px 70px;
+}
+
+#detailTripServices h2 {
+    font-weight: bold;
 }
 
 /*Ayuda*/

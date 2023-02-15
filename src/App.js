@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import './App.css';
+import './mediaQueries.css';
 import { NavigationBar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Home } from './components/Home/home';

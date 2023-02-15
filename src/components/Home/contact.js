@@ -13,7 +13,7 @@ const Contact = () => {
         </div>
         <Stack direction="horizontal" id="contactButtonsContainer"> 
         <a href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">
-          <Button variant="primary" size="lg" className="contactButtons pinkHoverButtons"><Image src={whatsappIcon} alt="logo whatsapp"  className="contactLogos" width={78} height={78}/></Button>{' '}
+          <Button variant="primary" size="lg" className="contactButtons pinkHoverButtons"><Image src={whatsappIcon} alt="logo whatsapp"  className="contactLogos whatsAppButton" width={78} height={78}/></Button>{' '}
         </a>
         <a href="https://www.instagram.com/lasclarisastours/" target="_blank" rel="noopener noreferrer">
           <Button variant="primary" size="lg" className="contactButtons pinkHoverButtons"><Image src={instagramIcon} alt="logo instagram" className="contactLogos" /></Button>{' '}

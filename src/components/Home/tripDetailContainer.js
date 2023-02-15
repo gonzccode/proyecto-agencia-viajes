@@ -25,8 +25,7 @@ const TripDetailContainer = () => {
   }, [id]);
 
   return (
-    <>
-      <section id='idDetailTrip'>
+    <section id='idDetailTrip'>
       <DetailTitle />
       {!loading ? <TripDetail tripList={tripList} /> 
       : 
@@ -34,8 +33,7 @@ const TripDetailContainer = () => {
         <Spinner className='spinnerLoading' animation="border"  role="status"/>
       </div>
       }
-      </section>
-    </>
+    </section>
   )
 }
 

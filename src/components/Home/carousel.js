@@ -39,28 +39,28 @@ const MainCarousel = () => {
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 carouselImages"
                     src={cerro7Colores}
                     alt="cerro 7 colores"
                 />
                 </Carousel.Item>
                 <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 carouselImages"
                     src={teatroColon}
                     alt="teatro colon"
                 />
                 </Carousel.Item>
                 <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 carouselImages"
                     src={museoDeTigre}
                     alt="museo de tigre"
                 />
                 </Carousel.Item>
                 <Carousel.Item>
                 <img
-                    className="d-block w-100"
+                    className="d-block w-100 carouselImages"
                     src={carnavalGualeguaychu}
                     alt="Fourth slide"
                 />

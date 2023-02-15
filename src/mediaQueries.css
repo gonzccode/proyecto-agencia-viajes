@@ -13,3 +13,176 @@ diseño desktop con menu hamburguesa y leves modificaciones de tamaño
 992 para arriba
 
 diseño desktop*/
+
+@media (max-width: 576px) {
+
+/*Estilos generales*/
+
+.rectangularSubtitleContainers {
+    margin: 100px;
+    padding: 0px;
+}
+
+.mobileSubtitles {
+    margin-top: 50px;
+}
+
+.purpleBgSubtitleContainer {
+    padding: 10px 10px;
+}
+
+.whiteSubtitles {
+    font-size: 24px;
+    text-align: center;
+}
+
+/*Home*/
+
+.carouselImages {
+    width: 360px;
+    height: 649px;
+}
+
+#mainTitleContainer {
+    top: 9rem;
+    left: 0rem;
+    right: 0rem;
+}
+
+#mainTitle {
+    font-size: 24px;
+    content: Experiencias inolvidables;
+}
+
+#mainSubtitle {
+    font-size: 24px;
+}
+
+#mainSubtitleContainer {
+    background-color: rgba(217, 217, 217, 0.8);
+}
+
+#carouselButtonContainer {
+    top: 30rem;
+}
+
+.secondarySubtitles {
+    text-align: center;
+    font-size: 20px;
+}
+
+.contactButtons {
+    background-color: #663399;
+    border-radius: 50%;
+    border-style: none;
+    margin: 15px 7.5px;
+}
+
+.whatsAppButton {
+    width: 60px;
+    height: 60px;
+}
+
+.contactLogos {
+    padding: 7.5px;
+}
+
+#clarisasInformationMobile {
+    display: flex;
+    flex-direction: column;
+}
+
+#questionSubtitle {
+    text-align: center;
+}
+
+#clarisasInformationCol p{
+    text-align: center;
+}
+
+/*Viajes*/
+
+.destinationSubtitles {
+    display: none;
+}
+
+.tripsSectionCards {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Subsecciones de detalle*/
+
+#detailDestinationContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileDestinationSubtitles {
+    text-align: left;
+}
+
+#detailDestinationContainer h2 {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+#detailDestinationContainer p {
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+#detailImageContainer img {
+    padding: 20px;
+    width: 492px;
+    height: 324px;
+}
+
+#mobileDetailInformationContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#detailTextCol h2{
+    font-size: 20px;
+}
+
+#detailTextCol p{
+    font-size: 14px;
+}
+
+#detailButtonCol div {
+    width: 100%;
+}
+
+.writeUsButton {
+    width: 100%;
+    font-size: 14px;
+}
+
+.leftInformationContainer {
+    margin: 0px 5px;
+}
+
+.leftInformationContainer div h3 {
+    font-size: 20px;
+}
+
+.leftInformationContainer div div {
+    font-size: 20px;
+}
+
+#detailTripServices {
+    margin: 40px 0px 40px 10px;
+}
+
+#detailTripServices h2 {
+    font-size: 20px;
+}
+
+#detailTripServices ul li {
+    font-size: 14px;
+}
+
+}

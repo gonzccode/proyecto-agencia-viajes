@@ -11,14 +11,14 @@ const TripDetail = ({tripList}) => {
   return (
     <section>
       <div id="detailDestinationContainer">
-        <h2>próxima salida</h2>
-        <p><b className="tripDestination">{tripList.destination}</b> <b id="tripCity">{tripList.city}</b></p>
+        <h2 className="mobileDestinationSubtitles">próxima salida</h2>
+        <p className="mobileDestinationSubtitles"><b className="tripDestination">{tripList.destination}</b> <b id="tripCity">{tripList.city}</b></p>
       </div>
       <div id="detailImageContainer">
-        <Image src={tripList.image} alt={tripList.destination} width={1230} height={478}/>
+        <Image src={tripList.image} alt={tripList.destination} fluid/>
       </div>
       <Container>
-        <Row>
+        <Row id="mobileDetailInformationContainer">
           <Col id="detailTextCol">
             <h2>{tripList.title} <b className="tripDestination">{tripList.destination}</b></h2>
             <p>{tripList.text}</p>

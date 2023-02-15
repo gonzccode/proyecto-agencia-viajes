@@ -16,9 +16,9 @@ const Presentation = () => {
                     </div>
             </div>
             <Container>
-                <Row>
+                <Row id="clarisasInformationMobile">
                     <Col id="clarisasInformationCol">
-                        <div id="clarisasInformationContainer">
+                        <div>
                             <h3 id="questionSubtitle">¿Quiénes somos?</h3>
                             <h4 id="presentationSubtitle">Somos Profesionales en turismo</h4>
                             <p>En principio, cuando alguien decide <br/>estudiar turismo lo primero que suelen <br/> decirte es 
@@ -29,7 +29,7 @@ const Presentation = () => {
                     </Col>
                     <Col>
                         <div>
-                            <Image src={lasClarisasFoto} alt="imagen de nosotras" id="clarisasImage" width={503} height={352}/> 
+                            <Image src={lasClarisasFoto} alt="imagen de nosotras" id="clarisasImage" fluid/> 
                         </div>
                     </Col>
                 </Row>
