@@ -36,7 +36,151 @@ diseño desktop*/
     text-align: center;
 }
 
+/*Navbar*/
+
+#mobileNavbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.logo {
+    margin-right: 0px;
+    margin-left: 100px;
+}
+
+.views {
+    display: none;
+}
+
+.d-lg-none {
+    position: fixed;
+    z-index: 102;
+    width: 40px;
+    height: 40px;
+}
+
+#offcanvasHeader {
+    background-color: #663399;
+}
+
+#offcanvasHeader p {
+    color: #F4ECE0;
+}
+
+#offcanvasWelcome {
+    font-size: 16px;
+}
+
+#offcanvasClarisasTitle {
+    font-size: 20px;
+}
+
+.offcanvas-header .btn-close {
+    background-color:#F4ECE0;
+}
+
+#offcanvasNavContainer {
+    gap: 15px;
+}
+
+.offcanvasNavLinks {
+    text-decoration: none;
+}
+
+.offcanvasNavLinks {
+    color:#663399;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/*Footer*/
+
+#complaintContainerSection {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+}
+
+#desktopButtonsContainer {
+    display: none;
+}
+
+#regretButton {
+    width: 328px;
+    height: 48px;
+    font-size: 14px;
+}
+
+#complaintContainer p {
+    font-size: 14px;
+    text-align: center;
+}
+
+#footerNavbarContainer {
+    display: none;
+}
+
+.footerLines {
+    width: 100%;
+    border-color: #663399;
+    border-width: 3px;
+    opacity: 1;
+    margin-bottom: 0px;
+}
+
+#footerLogo {
+    margin: 20px 0px;
+}
+
+#mobileMediaLogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+#consumerProtectionSection div {
+    padding: 0px;
+    margin: 0px 20px;
+}
+
+#consumerProtectionSection div strong{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#footerDataContainer {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerIcons {
+    display: none;
+}
+
+.footerDataText {
+    color:#663399;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#purpleEndLine {
+    background-color: #663399;
+    height: 15px;
+}
+
 /*Home*/
+
+#buttonFixed {
+    display: none;
+}
+
+#seeNextTripsButton {
+    display: none,
+}
 
 .carouselImages {
     width: 360px;
@@ -69,6 +213,10 @@ diseño desktop*/
 .secondarySubtitles {
     text-align: center;
     font-size: 20px;
+}
+
+#mobileCardsCarousel {
+    display: none;
 }
 
 .contactButtons {

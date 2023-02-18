@@ -7,6 +7,10 @@ import facebookIcon from '../assets/img/facebook_icon.png';
 import emailIcon from '../assets/img/email_icon.png';
 import whatsappIcon from '../assets/img/whatsapp_icon.png';
 import youtubeIcon from '../assets/img/youtube_icon.png';
+import facebookMobileIcon from '../assets/img/logo_facebook_mobile.png';
+import instagramMobileIcon from '../assets/img/logo_instagram_mobile.png';
+import whatsappMobileIcon from '../assets/img/logo_whatsapp_mobile.png';
+import youtubeMobileIcon from '../assets/img/logo_youtube_mobile.png';
 import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
@@ -19,12 +23,28 @@ const Footer = () => {
                     </a>
                     <p><b>Ley 24.240 -<br/>Autoridad Nacional de aplicación<br/> Defensa del Consumidor,<br/></b> para realizar reclamos ingrese <a href='https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes' target="_blank" rel="noopener noreferrer">aquí<br/> (DENUNCIA CONTRA UNA AGENCIA)</a></p>
                 </div>
+                <hr className="footerLines"/>
                 <div>
                     <NavLink to="/">
-                        <Image src={logo} alt="logo"/>
+                        <Image src={logo} alt="logo" id="footerLogo"/>
                     </NavLink>
+                    <div id="mobileMediaLogos">
+                        <a href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">
+                            <Image src={whatsappMobileIcon} alt="whastapp icono" width={39.69} height={40}/>
+                        </a>
+                        <a href="https://www.youtube.com/@lasclarisas" target="_blank" rel="noopener noreferrer">
+                            <Image src={youtubeMobileIcon} alt="youtube icono"/>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank" rel="noopener noreferrer">
+                            <Image src={facebookMobileIcon} alt="facebook icono"/>
+                        </a>
+                        <a href="https://www.instagram.com/lasclarisastours/" target="_blank" rel="noopener noreferrer">
+                            <Image src={instagramMobileIcon} alt="instagram icono"/>
+                        </a>
+                    </div>
                 </div>
-                <div id="buttonsContainer">
+                <hr className="footerLines"/>
+                <div id="desktopButtonsContainer">
                     <a href="https://www.youtube.com/@lasclarisas" target="_blank" rel="noopener noreferrer" className="socialMediaLinks">
                         <Button variant="outline-primary" className="socialMediaButtons">YOUTUBE <Image src={youtubeIcon} alt="icono de youtube" className="socialMediaIcons"/></Button>{' '}
                     </a>
@@ -53,8 +73,8 @@ const Footer = () => {
                 </div>
             </Stack>
             <section id="consumerProtectionSection">
-                <div id="consumerProtectionTextContainer">
-                    <strong className="consumerProductionText">
+                <div>
+                    <strong>
                     Dirección General de Defensa y Protección al Consumidor - Consultas y/o denuncias <br/>
                     El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los 
                     mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un 
@@ -86,6 +106,9 @@ const Footer = () => {
                     <p className="footerDataText">FERRARI ANDREA LILIANA Permiso Precario nro. 2022-122124155</p>
                 </div>
             </Stack>
+            <div id="purpleEndLine">
+
+            </div>
         </footer>
     )
 }

@@ -141,6 +141,10 @@ footer {
     margin-right: 10px;
 }
 
+#mobileMediaLogos {
+    display: none;
+} 
+
 .footerNavbar {
     display: flex;
     flex-direction: column;
@@ -151,14 +155,14 @@ footer {
     background-color: #F0F0F0;
 }
 
-#consumerProtectionTextContainer {
+#consumerProtectionSection div {
     display: flex;
     justify-content: center;
     margin: 5px 20px;
     padding: 20px;
 }
 
-.consumerProductionText {
+#consumerProtectionSection div strong {
     text-align: justify;
 }
 
@@ -241,6 +245,10 @@ footer {
 
 #seeNextTripsButton:hover {
     background: #BA007C;
+}
+
+#mobileNextTripsButton {
+    display: none;
 }
 
 .secondarySubtitles {

@@ -1,5 +1,8 @@
 import Stack from 'react-bootstrap/Stack';
 import { TripsListContainer } from './tripListContainer';
+import Button from 'react-bootstrap/Button';
+import arrowIcon from '../../assets/img/arrow_icon.png';
+import Image from 'react-bootstrap/Image';
 
 const Trips = () => {
   return (
@@ -11,10 +14,11 @@ const Trips = () => {
       </div>
       <div id="frecuentJourneysSubtitleContainer">
         <h2 className="secondarySubtitles"><b id="frecuentJourneys">Salidas frecuentes,</b> <b id="travelWithUs">¡Viajá con nosotras!</b></h2>
+        <Button variant="primary" size="lg" id="mobileNextTripsButton">Ver próximos viajes <Image src={arrowIcon} alt="icono de flecha"/></Button>{' '}
       </div>
       {/* <Stack direction="horizontal"> */}
       <Stack>
-        <div>
+        <div id="mobileCardsCarousel">
           <TripsListContainer/>
         </div>
       </Stack>
