@@ -18,14 +18,14 @@ const TripsListContainer = () => {
 }, []);
 
     return (
-        <>
+        <section id="homeTripsCardsSection">
             {!loading ? <TripsList tripsList={tripsList}/> 
             : 
             <div id='spinnerSection'>
                 <Spinner className='spinnerLoading' animation="border"  role="status"/>
             </div>
             }
-        </>
+        </section>
     )
 }
 

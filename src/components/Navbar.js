@@ -24,10 +24,9 @@ const NavigationBar = () => {
 
   return (
     <header>
-
       <Navbar id="navbar">
-        <Container id="mobileNavbar">
           <BsList className="d-lg-none" onClick={handleShow}/>
+        <Container id="mobileNavbar">
             <NavLink to="/">
               <Image src={logo} alt="logo" className="logo"/>
             </NavLink>
@@ -91,32 +90,6 @@ const NavigationBar = () => {
           </Navbar>
         </Offcanvas.Body>
       </Offcanvas>
-      {/*
-      <Navbar collapseOnSelect expand="lg" id="navbar">
-        <Container>
-          <NavLink to="/">
-            <Image src={logo} alt="logo" className="logo"/>
-          </NavLink>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto views">
-              <NavLink to="/viajes" className="navLinks">
-                <strong>Viajes</strong>
-              </NavLink>
-              <NavLink to="/ayuda" className="navLinks" replace >
-                <strong>Ayuda</strong>
-              </NavLink>
-              <NavLink to="/nosotras" className="navLinks">
-                <strong>Nosotras</strong>
-              </NavLink>
-              <NavLink to="/contacto" className="navLinks">
-                <strong>Contacto</strong>
-              </NavLink>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
-    */}
     </header>
   )
 }

@@ -7,7 +7,7 @@ const DetailData = () => {
         <>
             <div className="leftInformationContainer">
                 <div>
-                    <h3>Salida y duración:</h3>
+                    <h3>Salida:</h3>
                     <div className="purpleBgSubtitleContainer whiteSubtitles">
                         Consultar fecha + info
                     </div>
