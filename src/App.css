@@ -45,11 +45,6 @@ header {
     border-bottom: 4px solid  #663399;
 }
 
-.views {
-    font-weight: bold;
-    margin-right: 208px;
-}
-
 .navLinks {
     text-decoration: none;
 }
@@ -234,7 +229,7 @@ footer {
 }
 
 #frecuentJourneysSubtitleContainer {
-    margin: 100px 0px 50px 0px;
+    margin: 40px 0px 50px 0px;
 }
 
 #frecuentJourneys {
@@ -264,7 +259,6 @@ footer {
 .cards {
     filter: drop-shadow(2px 4px 25px rgba(0, 0, 0, 0.25));
     border-radius: 40px;
-    margin: 50px 0px;
 }
 
 .cardsImage {
