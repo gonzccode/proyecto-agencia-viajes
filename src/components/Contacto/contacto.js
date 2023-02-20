@@ -2,7 +2,9 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import { Image } from 'react-bootstrap';
 import iconWp from '../../assets/img/icono_wp.png';
+import iconWpMobile from '../../assets/img/icono_wp_mobile.png';
 import iconMail from '../../assets/img/icono_mail.png';
+import iconMailMobile from '../../assets/img/icono_email_mobile.png';
 import iconoFacebook from '../../assets/img/icono_facebook.png';
 import iconoInstagram from '../../assets/img/icono_instagram.png';
 import iconoYoutube from '../../assets/img/icono_youtube.png';
@@ -40,7 +42,7 @@ const Contacto = () => {
         {!loading? 
         <>
           <div className='contactDirect container' >
-            <div className='row' style={{textAlign:'center'}}>
+            <div className='contactDirectRow row' style={{textAlign:'center'}}>
               <div className='col-md-2'>
 
               </div>  
@@ -49,7 +51,12 @@ const Contacto = () => {
                     <Stack direction="horizontal" gap={2}>
                         <div className="contactIcon">
                           <a  href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">
-                            <Image src={iconWp} alt='contacto whatsapp' width={70} height={70}/>
+                            <Image className='iconWpDesktop' src={iconWp} alt='contacto whatsapp' width={70} height={70}/>
+                          </a>
+                        </div>
+                        <div className="contactIconMobile">
+                          <a  href="https://wa.me/+5492323533332" target="_blank" rel="noopener noreferrer">
+                            <Image className='iconWpMobile' src={iconWpMobile} alt='contacto whatsapp' width={50} height={50}/>
                           </a>
                         </div>
                         <div className='contactIconText'>
@@ -64,7 +71,7 @@ const Contacto = () => {
                                 +54 9 2323 533 332
                                 </b>
                               </p>
-                              <p>
+                              <p className='workingHours'>
                                 Horario laboral de
                                 <br></br>
                                 8.00hs a 19.00hs
@@ -78,9 +85,14 @@ const Contacto = () => {
                 {/* <div className='container'> */}
                     <Stack direction="horizontal" gap={2}>
                         <div className="contactIcon">
-                        <a href="mailto:lasclarisastours@gmail.com" target="_blank" rel="noopener noreferrer">
-                          <Image src={iconMail} alt='contacto mail' width={70} height={70}/>
-                        </a>
+                          <a href="mailto:lasclarisastours@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <Image src={iconMail} alt='contacto mail' width={70} height={70}/>
+                          </a>
+                        </div>
+                        <div className="contactIconMobile">
+                          <a href="mailto:lasclarisastours@gmail.com" target="_blank" rel="noopener noreferrer">
+                            <Image src={iconMailMobile} alt='contacto mail' width={50} height={50}/>
+                          </a>
                         </div>
                         <div className="contactIconText">
                               <h5>
@@ -93,7 +105,7 @@ const Contacto = () => {
                                 lasclarisastours@gmail.com
                                 </b>
                               </p>
-                              <p>
+                              <p className='workingHours'>
                                 Horario laboral de
                                 <br></br>
                                 8.00hs a 19.00hs
@@ -112,7 +124,7 @@ const Contacto = () => {
                     <a className='contactIconSocial' href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank" rel="noopener noreferrer">
                       <Image src={iconoFacebook} alt='contacto mail' width={100} height={100}/>
                     </a>
-                    <div align='center'>
+                    <div className='contactIconSocialText'>
                       <h5>
                         <b>Facebook</b>
                         </h5>
@@ -122,7 +134,7 @@ const Contacto = () => {
                     </div>
                   </div>
                   <div className='contactSocialImageOne col-md-3'>
-                    <Image src={imagenFacebookOne} alt='contacto mail' width={230} height={200} />
+                    <Image className='contactSocialImage' src={imagenFacebookOne} alt='contacto mail' width={230} height={200} />
                   </div>
                   <div className='contactSocialImageTwo col-md-3'>
                     <Image src={imagenFacebookTwo} alt='contacto mail' width={230} height={200} />
@@ -139,8 +151,9 @@ const Contacto = () => {
                   <div className='contactSocialIcon col-md-2'>
                     <a className='contactIconSocial' href="https://www.instagram.com/lasclarisastours/" target="_blank" rel="noopener noreferrer">
                       <Image src={iconoInstagram} alt='contacto mail' width={100} height={100}/>
+                      
                     </a>
-                    <div align='center'>
+                    <div className='contactIconSocialText'>
                       <h5>
                         <b>Instagram</b>
                         </h5>
@@ -168,7 +181,7 @@ const Contacto = () => {
                     <a className='contactIconSocial' href="https://www.youtube.com/@lasclarisas" target="_blank" rel="noopener noreferrer">
                       <Image src={iconoYoutube} alt='contacto mail' width={100} height={100}/>
                     </a>
-                    <div align='center'>
+                    <div className='contactIconSocialText'>
                       <h5>
                         <b>Youtube</b>
                         </h5>
@@ -192,7 +205,10 @@ const Contacto = () => {
           </div>
         </> 
         :
-        <Spinner className='spinnerLoading' animation="border"  role="status"/>
+        <div id='spinnerSection'>
+          <Spinner className='spinnerLoading' animation="border"  role="status"/>
+        </div>
+        
         }
     </section>
   )

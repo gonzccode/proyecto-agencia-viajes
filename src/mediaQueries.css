@@ -390,6 +390,142 @@ diseño desktop*/
 #detailTripServices ul li {
     font-size: 14px;
 }
+
+/*Ayuda*/
+.helpListRow{
+    margin-top: -50px;
+}
+
+.cardHelp {
+    text-align: center;
+    width: 90%;
+    height: 280px;
+
+}
+
+/*preguntas frecuentes*/
+#moreInfoHelp{
+    padding: 60px 50px 60px 50px;
+    background-color: #F0F0F0;
+}
+
+/*contacto*/
+.contactDirectRow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contactCard {
+    background-color: #663399;
+    border-radius: 25px;
+    width: 80%;
+    color: #FFFFFF;
+    white-space: normal;
+    padding: 10px 5px 10px 30px;
+    
+}
+
+.contactIcon{
+    display: none;
+}
+
+.contactIconMobile {
+    display: contents;
+    width: 40%;
+}
+
+.contactIconText{
+    width: 70%;
+    text-align: left;
+    white-space: pre-line;
+    word-break:break-all;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.workingHours{
+    display: none;
+}
+
+.contactSocialIcon{
+    width: 100%;
+    display: grid;
+}
+
+.contactIconSocial {
+    background-color: #FFFFFF;
+    justify-content: start;
+    width: 30%;
+}
+
+.contactIconSocialText{
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 70%;
+}
+
+.contactSocialImageOne{
+    margin: 0px;
+    width: 100%;
+
+}
+
+.contactSocialImageSize{
+    width: auto;
+    height: auto;
+}
+
+
+.contactSocialImageTwo{
+    margin: 0px;
+    display: none;
+}
+
+.contactSocialImageThree{
+    margin: 0px;
+    display: none;
+}
+
+.usDescription {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 60px;
+  }
+  
+
+.usDescription > div {
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 20px;
+  }
+
+  .usWhy {
+    background-color: #F4ECE0;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 0px;
+    border-radius: 14px;
+    
+}
+
+.usWhy > div {
+    width: 90%;
+    margin-right: 20px;
+  }
+
+
 }
 
 @media (min-width: 992px) {

@@ -54,7 +54,10 @@ const Ayuda = () => {
           </div>
         </div>
       : 
-        <Spinner className='spinnerLoading' animation="border"  role="status"/>
+        <div id='spinnerSection'>
+          <Spinner className='spinnerLoading' animation="border"  role="status"/>
+        </div>
+        
       }
     </section>
   )

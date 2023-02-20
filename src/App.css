@@ -517,15 +517,16 @@ footer {
     display: grid;
     place-items: center;
     padding-bottom: 100px;
+    justify-items: stretch
 }
 
 
 
-/* .helpListRow{
-    display: grid;
-    align-content: center;
+.helpListRow{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-} */
+}
 
 .cardHelp {
     text-align: center;
@@ -584,6 +585,7 @@ footer {
     place-items: center;
     padding-bottom: 20px;
     margin-bottom: 50px;
+    justify-items: stretch
     
 }
 
@@ -628,6 +630,7 @@ footer {
     padding-left: 100px;
     padding-right: 60px;
     border-radius: 14px;
+    
 }
 
 .usWhy > div {
@@ -663,6 +666,7 @@ footer {
     display: grid;
     place-items: center;
     padding-bottom: 100px;
+    justify-items: stretch
     
 }
 
@@ -680,11 +684,21 @@ footer {
     background-color: #FFFFFF;
     padding: 15px;
 }
+.contactIconMobile {
+    display: none;
+}
 
 .contactIconText{
     width: 70%;
     white-space: pre-line;
     word-break:break-all;
+}
+
+.contactSocial{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .contactSocialOther {
@@ -695,7 +709,9 @@ footer {
     margin-top: 20px;
 }
 
-
+.contactSocialIcon{
+    width: auto;
+}
 
 .contactIconSocial {
     display: grid;
@@ -720,6 +736,11 @@ footer {
 
 .contactSocialImageThree {
     margin-left: 10px;
+}
+
+.contactSocialImageSize{
+    width: 230px;
+    height: 200px;
 }
 
 /*Loading Spinner*/
