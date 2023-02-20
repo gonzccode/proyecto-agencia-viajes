@@ -13,7 +13,7 @@ const DetailData = () => {
                     </div>
                 </div>
             </div>
-            <div className="leftInformationContainer">
+            <div className="leftInformationContainer mobileDetailIconsContainer">
                 <div>
                     <div className="detailIconContainers">
                         <Image src={busIcon} alt="icono de micro" className="detailIcons"/>

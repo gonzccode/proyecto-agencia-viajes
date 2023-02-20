@@ -33,7 +33,7 @@ const TripDetail = ({tripList}) => {
         </Row>
       </Container>
       <DetailData/>
-      <hr/>
+      <hr id="detailLine"/>
       <DetailInformation/>
   </section>
   )

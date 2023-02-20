@@ -26,17 +26,9 @@ p {
     font-size: 14px;
 }
 
-.rectangularSubtitleContainers {
-    display: grid;
-    place-items: center;
-    padding: 100px 0px 50px 0px;
-}
-
 .purpleBgSubtitleContainer {
     background-color: #663399;
-    padding: 10px 70px;
-    margin-top: 50px;
-}
+} 
 
 /*Header*/
 
@@ -51,10 +43,6 @@ header {
 #navbar {
     background-color: #F4ECE0;
     border-bottom: 4px solid  #663399;
-}
-
-.logo {
-    margin-right: 447px;
 }
 
 .views {
@@ -93,10 +81,6 @@ footer {
 
 #complaintContainerSection {
     padding: 20px 0px;
-}
-
-#complaintContainer {
-    margin-left: 50px;
 }
 
 #footerNavbarContainer {
@@ -227,13 +211,6 @@ footer {
     font-size: 28px;
 }
 
-#carouselButtonContainer {
-    position: absolute;
-    top: 35rem;
-    z-index: 100;
-    padding: 0.4rem;
-}
-
 #seeNextTripsButton {
     background: #663399;
     box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.8);
@@ -245,10 +222,6 @@ footer {
 
 #seeNextTripsButton:hover {
     background: #BA007C;
-}
-
-#mobileNextTripsButton {
-    display: none;
 }
 
 .secondarySubtitles {
@@ -318,8 +291,6 @@ footer {
     background-color: #663399;
     border-radius: 50px;
     border-style: none;
-    margin-left: 15px;
-    margin-bottom: 25px;
 }
 
 #contactButtonsContainer {
@@ -438,10 +409,10 @@ footer {
 
 /*Subsecciones de detalle*/ 
 
+
 .leftInformationContainer {
     display: grid;
     place-items: left;
-    margin: 0px 100px;
 }
 
 .leftInformationContainer div {
@@ -449,14 +420,8 @@ footer {
     flex-direction: row;
 }
 
-.leftInformationContainer div div{
-    font-size: 28px;
-    margin-left: 30px
-}
-
 .leftInformationContainer div h3{
     margin-top: 60px;
-    font-size: 28px;
     font-weight: bold;
 }
 
@@ -537,6 +502,10 @@ footer {
 
 #detailTripServices h2 {
     font-weight: bold;
+}
+
+#detailLine {
+    border: 1px solid #000000;
 }
 
 /*Ayuda*/

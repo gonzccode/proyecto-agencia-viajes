@@ -54,28 +54,41 @@ const NavigationBar = () => {
             <p><b id="offcanvasWelcome">¡Bienvenido!</b> <br/> <b id="offcanvasClarisasTitle">Las Clarisas Tours</b></p>
           </Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body>
+        <Offcanvas.Body id="offcanvasBody">
           <Navbar>
-            <Container>
                 <Nav>
-                  <Stack direction="vertical" id="offcanvasNavContainer">
+                  <Stack direction="vertical" className="offcanvasNavContainer">
                     <NavLink to="/viajes" className="offcanvasNavLinks">
-                      <strong>viajes</strong>
+                      <strong><Image src={busIcon} alt="icono bus" className="offcanvasIcons"/>viajes</strong>
                     </NavLink>
-                    <NavLink to="/ayuda" className="offcanvasNavLinks" replace >
-                      <strong>ayuda</strong>
+                    <NavLink to="/ayuda" className="offcanvasNavLinks">
+                      <strong><Image src={questionIcon} alt="icono pregunta" className="offcanvasIcons"/>ayuda</strong>
                     </NavLink>
                     <NavLink to="/nosotras" className="offcanvasNavLinks">
-                      <strong>nosotras</strong>
+                      <strong><Image src={contactIcon} alt="icono contacto" className="offcanvasIcons"/>nosotras</strong>
                     </NavLink>
                     <NavLink to="/contacto" className="offcanvasNavLinks">
-                      <strong>contacto</strong>
+                      <strong><Image src={whatsappIcon} alt="icono whatsapp" className="offcanvasIcons"/>contacto</strong>
                     </NavLink>
                   </Stack>
                 </Nav>
-            </Container>
-      </Navbar>
-
+          </Navbar>
+          <hr id="offcanvasLine"/>
+          <Navbar>
+                <Nav>
+                  <Stack direction="vertical" className="offcanvasNavContainer">
+                    <a href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank" rel="noopener noreferrer" className="offcanvasNavLinks">
+                      <strong><Image src={facebookIcon} alt="icono bus" className="offcanvasIcons"/>facebook</strong>
+                    </a>
+                    <a href="https://www.instagram.com/lasclarisastours/" target="_blank" rel="noopener noreferrer" className="offcanvasNavLinks">
+                      <strong><Image src={instagramIcon} alt="icono pregunta" className="offcanvasIcons"/>blog de viajes</strong>
+                    </a>
+                    <a href="https://www.youtube.com/@lasclarisas" target="_blank" rel="noopener noreferrer" className="offcanvasNavLinks">
+                      <strong><Image src={youtubeIcon} alt="icono contacto" id="offcanvasYoutubeIcon" className="offcanvasIcons"/>youtube</strong>
+                    </a>
+                  </Stack>
+                </Nav>
+          </Navbar>
         </Offcanvas.Body>
       </Offcanvas>
       {/*
