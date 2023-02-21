@@ -57,16 +57,16 @@ const NavigationBar = () => {
           <Navbar>
                 <Nav>
                   <Stack direction="vertical" className="offcanvasNavContainer">
-                    <NavLink to="/viajes" className="offcanvasNavLinks">
+                    <NavLink to="/viajes" className="offcanvasNavLinks" onClick={handleClose}>
                       <strong><Image src={busIcon} alt="icono bus" className="offcanvasIcons"/>viajes</strong>
                     </NavLink>
-                    <NavLink to="/ayuda" className="offcanvasNavLinks">
+                    <NavLink to="/ayuda" className="offcanvasNavLinks" onClick={handleClose}>
                       <strong><Image src={questionIcon} alt="icono pregunta" className="offcanvasIcons"/>ayuda</strong>
                     </NavLink>
-                    <NavLink to="/nosotras" className="offcanvasNavLinks">
+                    <NavLink to="/nosotras" className="offcanvasNavLinks" onClick={handleClose}>
                       <strong><Image src={contactIcon} alt="icono contacto" className="offcanvasIcons"/>nosotras</strong>
                     </NavLink>
-                    <NavLink to="/contacto" className="offcanvasNavLinks">
+                    <NavLink to="/contacto" className="offcanvasNavLinks" onClick={handleClose}>
                       <strong><Image src={whatsappIcon} alt="icono whatsapp" className="offcanvasIcons"/>contacto</strong>
                     </NavLink>
                   </Stack>
