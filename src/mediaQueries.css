@@ -18,9 +18,9 @@ diseño desktop*/
 
 /*Estilos generales*/
 
-* {
+/* * {
     overflow-x: hidden;
-}
+} */
 
 h1 {
     overflow-y: hidden;
@@ -43,7 +43,7 @@ button {
 }
 
 .rectangularSubtitleContainers {
-    margin: 60px 0px 50px 0px;
+    margin: 60px 0px 30px 0px;
     padding: 0px;
 }
 
@@ -438,14 +438,20 @@ button {
 
 /*Ayuda*/
 .helpListRow{
-    margin-top: -50px;
+    margin-top: 0px;
+    
 }
 
 .cardHelp {
     text-align: center;
     width: 90%;
     height: 280px;
+    z-index: 2;
 
+}
+
+.cardHelp:hover{
+    box-shadow: 0px 0px 10px 5px #8C52FF;
 }
 
 /*preguntas frecuentes*/
@@ -493,9 +499,12 @@ button {
     display: none;
 }
 
+
+
 .contactSocialIcon{
-    width: 100%;
-    display: grid;
+    width: 90%;
+    display: flex;
+    align-items: center;
 }
 
 .contactIconSocial {
@@ -504,16 +513,39 @@ button {
     width: 30%;
 }
 
+.contactIconSocial img {
+    width: 70px;
+    height: 70px;
+}
+
 .contactIconSocialText{
     padding-top: 10px;
-    padding-left: 15px;
+    padding-left: 5px;
     width: 70%;
+    color: #663399;
+}
+
+.contactSocialOther {
+    width: 70%;
+    padding: 5px 0px 25px 0px;
+    margin-top: 20px;
+
+}
+
+.contactSocialIconRow{
+    display: grid;
+    justify-content: center;
 }
 
 .contactSocialImageOne{
     margin: 0px;
     width: 100%;
 
+}
+
+.contactSocialImageOne img {
+    width: auto;
+    height: 270px;
 }
 
 .contactSocialImageSize{
@@ -532,11 +564,23 @@ button {
     display: none;
 }
 
+/*Nosotras*/
+#usSection {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+    justify-items: stretch
+    
+}
+
 .usDescription {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: left;
+    text-align: center;
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 60px;
@@ -551,17 +595,20 @@ button {
 
   .usWhy {
     background-color: #F4ECE0;
-    width: 70%;
+    width: 90%;
     height: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: left;
-    padding-top: 10px;
+    text-align: center;
+    padding-top: 30px;
     padding-bottom: 50px;
-    padding-left: 100px;
+    padding-left: 20px;
     padding-right: 0px;
     border-radius: 14px;
+    margin-left: 30px;
+    
+
     
 }
 
@@ -570,6 +617,31 @@ button {
     margin-right: 20px;
   }
 
+#travelWithUs {
+    color: #BA007C;
+    text-align: center;
+}
+
+.usButton{
+    text-align:center;
+    width: 85%;
+    height: 100%;
+    
+    
+}
+
+#usWhyButton {
+    background-color: #663399;
+    border-radius: 50px;
+    border-style: none;
+    margin-top: 30px;
+    padding: 12px 23px;
+    float: center;
+}
+
+h5 {
+    line-height: normal;
+}
 
 }
 

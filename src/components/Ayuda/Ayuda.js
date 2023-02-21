@@ -23,7 +23,7 @@ const Ayuda = () => {
     <section id='helpSection' align='center'>
       <div className="rectangularSubtitleContainers" style={{background:'#F0F0F0'}}>
         <div className="purpleBgSubtitleContainer">
-          <h1 className="secondarySubtitles whiteSubtitles">Ayuda</h1>
+          <h1 className="whiteSubtitles">Ayuda</h1>
         </div>
       </div>
       {!loading ? 

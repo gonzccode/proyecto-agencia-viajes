@@ -24,7 +24,7 @@ const Nosotras = () => {
     <section id='usSection' align='center'>
       <div className="rectangularSubtitleContainers">
         <div className="purpleBgSubtitleContainer">
-          <h1 className="secondarySubtitles whiteSubtitles">Nosotras</h1>
+          <h1 className="whiteSubtitles">Nosotras</h1>
         </div>
       </div>
       {!loading ?
@@ -71,7 +71,7 @@ const Nosotras = () => {
           </div>
         </div>
         <div className='usPhoto'>
-          <Image src={lasClarisasFoto} alt="imagen de nosotras" id="clarisasImage" width={640} height={448}/> 
+          <Image src={lasClarisasFoto} alt="imagen de nosotras" id="clarisasImage" fluid /> 
         </div>
         <div className="rectangularSubtitleContainers" style={{paddingTop:'50px'}}>
           <div className="purpleBgSubtitleContainer">
@@ -115,7 +115,10 @@ const Nosotras = () => {
         </Link>
       </> 
       :
-      <Spinner className='spinnerLoading' animation="border"  role="status"/>
+      <div id='spinnerSection'>
+        <Spinner className='spinnerLoading' animation="border"  role="status"/>
+      </div>
+      
       }
     </section>
   )

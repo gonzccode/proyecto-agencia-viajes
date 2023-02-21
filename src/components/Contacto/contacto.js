@@ -36,7 +36,7 @@ const Contacto = () => {
     <section id='contactSection'>
         <div className="rectangularSubtitleContainers" style={{background:'#F0F0F0'}}>
             <div className="purpleBgSubtitleContainer">
-            <h1 className="secondarySubtitles whiteSubtitles">Contacto</h1>
+            <h1 className="whiteSubtitles">Contacto</h1>
             </div>
         </div>
         {!loading? 
@@ -119,10 +119,10 @@ const Contacto = () => {
           <div className='contactSocial'>
             <div className='contactSocialOther'>
               <div className='container'>
-                <div className='row'>
+                <div className='contactSocialIconRow row'>
                   <div className='contactSocialIcon col-md-2'>
                     <a className='contactIconSocial' href="https://www.facebook.com/profile.php?id=100086243602373" target="_blank" rel="noopener noreferrer">
-                      <Image src={iconoFacebook} alt='contacto mail' width={100} height={100}/>
+                      <Image src={iconoFacebook} alt='contacto mail' bsPrefix='img'/>
                     </a>
                     <div className='contactIconSocialText'>
                       <h5>
@@ -134,7 +134,7 @@ const Contacto = () => {
                     </div>
                   </div>
                   <div className='contactSocialImageOne col-md-3'>
-                    <Image className='contactSocialImage' src={imagenFacebookOne} alt='contacto mail' width={230} height={200} />
+                    <Image src={imagenFacebookOne} alt='contacto mail' fluid bsPrefix='img' />
                   </div>
                   <div className='contactSocialImageTwo col-md-3'>
                     <Image src={imagenFacebookTwo} alt='contacto mail' width={230} height={200} />
@@ -147,10 +147,10 @@ const Contacto = () => {
             </div>
             <div className='contactSocialOther'>
               <div className='container'>
-                <div className='row'>
+                <div className='contactSocialIconRow row'>
                   <div className='contactSocialIcon col-md-2'>
                     <a className='contactIconSocial' href="https://www.instagram.com/lasclarisastours/" target="_blank" rel="noopener noreferrer">
-                      <Image src={iconoInstagram} alt='contacto mail' width={100} height={100}/>
+                      <Image src={iconoInstagram} alt='contacto mail' bsPrefix='img'/>
                       
                     </a>
                     <div className='contactIconSocialText'>
@@ -162,13 +162,13 @@ const Contacto = () => {
                       </p>
                     </div>
                   </div>
-                  <div className='contactSocialImageOne col-md-3' style={{marginLeft:'20px'}}>
-                    <Image src={imagenInstagramOne} alt='contacto mail' width={230} height={200} />
+                  <div className='contactSocialImageOne col-md-3'>
+                    <Image src={imagenInstagramOne} alt='contacto mail' fluid />
                   </div>
-                  <div className='contactSocialImageTwo col-md-3' style={{marginLeft:'10px'}}>
+                  <div className='contactSocialImageTwo col-md-3'>
                     <Image src={imagenInstagramTwo} alt='contacto mail' width={230} height={200} />
                   </div>
-                  <div className='contactSocialImageThree col-md-3' style={{marginLeft:'10px'}}>
+                  <div className='contactSocialImageThree col-md-3'>
                     <Image src={imagenInstagramThree} alt='contacto mail' width={230} height={200}/>
                   </div>
                 </div>
@@ -176,10 +176,10 @@ const Contacto = () => {
             </div>
             <div className='contactSocialOther'>
               <div className='container'>
-                <div className='row'>
+                <div className='contactSocialIconRow row'>
                   <div className='contactSocialIcon col-md-2'>
                     <a className='contactIconSocial' href="https://www.youtube.com/@lasclarisas" target="_blank" rel="noopener noreferrer">
-                      <Image src={iconoYoutube} alt='contacto mail' width={100} height={100}/>
+                      <Image src={iconoYoutube} alt='contacto mail' bsPrefix='img'/>
                     </a>
                     <div className='contactIconSocialText'>
                       <h5>
@@ -190,13 +190,13 @@ const Contacto = () => {
                       </p>
                     </div>
                   </div>
-                  <div className='contactSocialImageOne col-md-3' style={{marginLeft:'20px'}}>
-                    <Image src={imagenYoutubeOne} alt='contacto mail' width={230} height={200} />
+                  <div className='contactSocialImageOne col-md-3'>
+                    <Image src={imagenYoutubeOne} alt='contacto mail' fluid />
                   </div>
-                  <div className='contactSocialImageTwo col-md-3' style={{marginLeft:'10px'}}>
+                  <div className='contactSocialImageTwo col-md-3'>
                     <Image src={imagenYoutubeTwo} alt='contacto mail' width={230} height={200} />
                   </div>
-                  <div className='contactSocialImageThree col-md-3' style={{marginLeft:'10px'}}>
+                  <div className='contactSocialImageThree col-md-3'>
                     <Image src={imagenYoutubeThree} alt='contacto mail' width={230} height={200}/>
                   </div>
                 </div>

@@ -579,7 +579,7 @@ footer {
     place-items: center;
     padding-bottom: 20px;
     margin-bottom: 50px;
-    justify-items: stretch
+    
     
 }
 
@@ -716,12 +716,22 @@ footer {
     cursor: pointer;
 }
 
+.contactIconSocial img {
+    width: 100px;
+    height: 100px;
+}
+
 .contactSocialImage {
     border-radius: 25px;
 }
 
 .contactSocialImageOne {
     margin-left: 20px;
+}
+
+.contactSocialImageOne img {
+    width: 230px;
+    height: 200px;
 }
 
 .contactSocialImageTwo {
