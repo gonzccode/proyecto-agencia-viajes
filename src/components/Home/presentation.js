@@ -4,7 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import arrowIcon from '../../assets/img/arrow_icon.png'
+import arrowIcon from '../../assets/img/arrow_icon.png';
+import { NavLink } from 'react-router-dom';
 
 
 const Presentation = () => {
@@ -24,7 +25,9 @@ const Presentation = () => {
                             <p>En principio, cuando alguien decide <br/>estudiar turismo lo primero que suelen <br/> decirte es 
                                 “Ay que linda carrera” y “vas a <br/>vivir viajando” o te miran con cara rara y te <br/>preguntan
                                 ¿Eso se estudia?</p>
-                            <Button variant="primary" size="lg" id="knowUsButton" href='/nosotras'>CONOCE NUESTRA HISTORIA <Image src={arrowIcon} alt="icono de flecha"/></Button>{' '}
+                            <NavLink to="/nosotras">
+                                <Button variant="primary" size="lg" id="knowUsButton">CONOCE NUESTRA HISTORIA <Image src={arrowIcon} alt="icono de flecha"/></Button>{' '}
+                            </NavLink>
                         </div>
                     </Col>
                     <Col>
