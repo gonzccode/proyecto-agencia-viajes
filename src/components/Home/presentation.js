@@ -25,7 +25,11 @@ const Presentation = () => {
                             <p>En principio, cuando alguien decide <br/>estudiar turismo lo primero que suelen <br/> decirte es 
                                 “Ay que linda carrera” y “vas a <br/>vivir viajando” o te miran con cara rara y te <br/>preguntan
                                 ¿Eso se estudia?</p>
+<<<<<<< HEAD
                             <Link to={"/nosotras"}>
+=======
+                            <Link to="/nosotras">
+>>>>>>> bb368f7443d14a76bbd3de5eb606041e47d9cf07
                                 <Button variant="primary" size="lg" id="knowUsButton">CONOCE NUESTRA HISTORIA <Image src={arrowIcon} alt="icono de flecha"/></Button>{' '}
                             </Link>
                         </div>
