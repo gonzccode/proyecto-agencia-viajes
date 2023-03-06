@@ -25,7 +25,7 @@ const NavigationBar = () => {
   return (
     <header>
       <Navbar id="navbar">
-          <BsList className="d-lg-none" onClick={handleShow}/>
+          <BsList className="icon-menu d-lg-none" onClick={handleShow}/>
         <Container id="mobileNavbar">
             <NavLink to="/">
               <Image src={logo} alt="logo" className="logo"/>

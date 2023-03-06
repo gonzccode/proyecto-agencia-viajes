@@ -621,6 +621,7 @@ footer {
     padding-left: 100px;
     padding-right: 60px;
     border-radius: 14px;
+    align-items: baseline;
     
 }
 
@@ -707,7 +708,7 @@ footer {
     place-items: center;
     border-radius: 50%;
     background-color: #F0F0F0;
-    padding: 12px 0px ;
+    padding: 10px 10px ;
     cursor: pointer;
 }
 
@@ -733,11 +734,16 @@ footer {
     margin-left: 10px;
 }
 
+.contactSocialImageTwo img {
+    width: 230px;
+    height: 200px;
+}
+
 .contactSocialImageThree {
     margin-left: 10px;
 }
 
-.contactSocialImageSize{
+.contactSocialImageThree img {
     width: 230px;
     height: 200px;
 }
