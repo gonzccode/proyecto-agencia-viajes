@@ -30,6 +30,10 @@ p {
     background-color: #663399;
 } 
 
+.icon-menu {
+    margin-left: 10px;
+}
+
 /*Header*/
 
 header {

@@ -30,7 +30,7 @@ const Presentation = () => {
                             </Link>
                         </div>
                     </Col>
-                    <Col>
+                    <Col id="clarisasImageCol">
                         <div>
                             <Image src={lasClarisasFoto} alt="imagen de nosotras" id="clarisasImage" fluid/> 
                         </div>

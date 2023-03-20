@@ -5,7 +5,7 @@ import ticketIcon from '../../assets/img/ticket_icon.png';
 const DetailData = () => {
     return (
         <>
-            <div className="leftInformationContainer">
+            <div className="leftInformationContainer detailTabletContainer">
                 <div>
                     <h3>Salida:</h3>
                     <div className="purpleBgSubtitleContainer whiteSubtitles">

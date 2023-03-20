@@ -1,24 +1,17 @@
 /* 576 para abajo
-
 diseño mobile
-
 entre 576 y 768
-
 diseño desktop con menu hamburguesa y leves modificaciones de tamaño
-
 entre 768 y 992
-
 diseño desktop con menu hamburguesa y leves modificaciones de tamaño
-
 992 para arriba
-
 diseño desktop*/
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
 /*Estilos generales*/
-
- * {
+    
+* {
     overflow-x: hidden;
 } 
 
@@ -449,7 +442,6 @@ button {
 
 .helpListRow{
     margin-top: 0px;
-    
 }
 
 .cardHelp {
@@ -457,7 +449,6 @@ button {
     width: 90%;
     height: 280px;
     z-index: 2;
-
 }
 
 .cardHelp:hover{
@@ -490,8 +481,7 @@ button {
     width: 80%;
     color: #FFFFFF;
     white-space: normal;
-    padding: 10px 5px 10px 30px;
-    
+    padding: 10px 5px 10px 30px;    
 }
 
 .contactIcon{
@@ -515,8 +505,6 @@ button {
 .workingHours{
     display: none;
 }
-
-
 
 .contactSocialIcon{
     width: 90%;
@@ -570,7 +558,6 @@ button {
     height: auto;
 }
 
-
 .contactSocialImageTwo{
     margin: 0px;
     display: none;
@@ -599,16 +586,15 @@ button {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 60px;
-  }
-  
+}
 
 .usDescription > div {
     width: 90%;
     margin-left: 0px;
     margin-right: 20px;
-  }
+}
 
-  .usWhy {
+.usWhy {
     background-color: #F4ECE0;
     width: 90%;
     height: 100%;
@@ -622,15 +608,12 @@ button {
     padding-right: 0px;
     border-radius: 14px;
     margin-left: 30px;
-    
-
-    
 }
 
 .usWhy > div {
     width: 90%;
     margin-right: 20px;
-  }
+}
 
 #travelWithUs {
     color: #BA007C;
@@ -870,7 +853,6 @@ button {
 
 .helpListRow{
     margin-top: 0px;
-    
 }
 
 .cardHelp {
@@ -878,7 +860,6 @@ button {
     width: 90%;
     height: 280px;
     z-index: 2;
-
 }
 
 .cardHelp:hover{
@@ -911,8 +892,7 @@ button {
     width: 80%;
     color: #FFFFFF;
     white-space: normal;
-    padding: 10px 5px 10px 30px;
-    
+    padding: 10px 5px 10px 30px;    
 }
 
 .contactIcon{
@@ -936,8 +916,6 @@ button {
 .workingHours{
     display: none;
 }
-
-
 
 .contactSocialIcon{
     width: 90%;
@@ -967,7 +945,6 @@ button {
     width: 70%;
     padding: 5px 0px 25px 0px;
     margin-top: 20px;
-
 }
 
 .contactSocialIconRow{
@@ -978,7 +955,6 @@ button {
 .contactSocialImageOne{
     margin: 0px;
     width: 100%;
-
 }
 
 .contactSocialImageOne img {
@@ -990,7 +966,6 @@ button {
     width: auto;
     height: auto;
 }
-
 
 .contactSocialImageTwo{
     margin: 0px;
@@ -1020,16 +995,15 @@ button {
     padding-bottom: 50px;
     padding-left: 100px;
     padding-right: 60px;
-  }
-  
+}
 
 .usDescription > div {
     width: 90%;
     margin-left: 0px;
     margin-right: 20px;
-  }
+}
 
-  .usWhy {
+.usWhy {
     background-color: #F4ECE0;
     width: 90%;
     height: 100%;
@@ -1043,15 +1017,12 @@ button {
     padding-right: 0px;
     border-radius: 14px;
     margin-left: 30px;
-    
-
-    
 }
 
 .usWhy > div {
     width: 90%;
     margin-right: 20px;
-  }
+}
 
 #travelWithUs {
     color: #BA007C;
@@ -1080,9 +1051,33 @@ h5 {
 }
 }
 
-@media (min-width: 768px) and (max-width:992px) {
+@media (min-width: 769px) and (max-width:991px) {
 
 /*Estilos generales*/
+
+* {
+    overflow-x: hidden;
+} 
+
+h1 {
+    overflow-y: hidden;
+}
+
+h2 {
+    overflow-y: hidden;
+}
+
+h3 {
+    overflow-y: hidden;
+}
+
+h4 {
+    overflow-y: hidden;
+}
+
+button {
+    overflow-y: hidden;
+}
 
 .rectangularSubtitleContainers {
     display: grid;
@@ -1095,6 +1090,10 @@ h5 {
     margin-top: 50px;
 } 
 
+.whiteSubtitles {
+    font-size: 30px;
+    text-align: center;
+}
 
 /*Header*/
 
@@ -1109,8 +1108,321 @@ h5 {
 
 /*Footer*/
 
+#complaintContainerSection {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+}
+
+#desktopButtonsContainer {
+    display: none;
+}
+
+#regretButton {
+    width: 328px;
+    height: 48px;
+    font-size: 21px;
+}
+
 #complaintContainer {
-    margin-left: 50px;
+    margin-left: 0px;
+}
+
+#complaintContainer p {
+    font-size: 21px;
+    text-align: center;
+}
+
+#footerNavbarContainer {
+    display: none;
+}
+
+.footerLines {
+    width: 100%;
+    border-color: #663399;
+    border-width: 3px;
+    opacity: 1;
+    margin-bottom: 0px;
+}
+
+#footerLogo {
+    margin: 20px 0px;
+}
+
+#mobileMediaLogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+#consumerProtectionSection div {
+    padding: 0px;
+    margin: 0px 20px;
+}
+
+#consumerProtectionSection div strong{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 21px;
+}
+
+#footerDataContainer {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerIcons {
+    display: none;
+}
+
+.footerDataText {
+    color:#663399;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#purpleEndLine {
+    background-color: #663399;
+    height: 15px;
+}
+
+/*Home*/
+
+#buttonFixed {
+    display: none;
+}
+
+#carouselButtonContainer {
+    display: none,
+}
+
+.carouselImages {
+    width: 360px;
+    height: 649px;
+}
+
+#mainTitleContainer {
+    top: 6.6rem;
+    left: 0rem;
+    right: 0rem;
+}
+
+#mainTitle {
+    font-size: 32px;
+    content: Experiencias inolvidables;
+}
+
+#mainSubtitle {
+    font-size: 32px;
+}
+
+#mainSubtitleContainer {
+    background-color: rgba(217, 217, 217, 0.8);
+    top: 35rem;
+}
+
+#carouselButtonContainer {
+    top: 30rem;
+}
+
+.secondarySubtitles {
+    text-align: center;
+    font-size: 30px;
+}
+
+#mobileCardsCarousel {
+    display: none;
+}
+
+#frecuentJourneysSubtitleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#mobileNextTripsButton {
+    background: #663399;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.8);
+    border-radius: 50px;
+    border-style: none;
+    padding: 12px 23px;
+    gap: 16px;
+    width: 90%;
+    margin: 30px;
+    font-size: 25px;
+}
+
+.contactButtons {
+    background-color: #663399;
+    border-radius: 50%;
+    border-style: none;
+    margin: 15px 7.5px;
+}
+
+.whatsAppButton {
+    width: 60px;
+    height: 60px;
+}
+
+.contactLogos {
+    padding: 7.5px;
+}
+
+#clarisasInformationMobile {
+    display: flex;
+    flex-direction: column;
+}
+
+#questionSubtitle {
+    text-align: center;
+    font-size: 30px;
+}
+
+#clarisasInformationCol p{
+    text-align: center;
+    font-size: 25px;
+}
+
+#clarisasInformationCol div{
+    display: grid;
+    place-items: center;
+}
+
+#knowUsButton {
+    font-size: 20px;
+}
+
+#clarisasInformationMobile #clarisasImageCol div{
+    display: flex;
+    justify-content: center;
+}
+
+/*Viajes*/
+
+#tripsSubtitle {
+    font-size: 24px;
+}
+
+#pinkTripsSubtitle {
+    font-size: 24px;
+}
+
+.destinationSubtitles {
+    display: none;
+}
+
+.tripsSectionCards {
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    margin: 20px;
+}
+
+.seeTripsButtons {
+    position: absolute;
+    left: 61.4%;
+    right: 2.43%;
+    top: 80.28%;
+    bottom: 6.67%;
+    font-size: 19px;
+}
+
+.cardTitle {
+    overflow-y: hidden;
+    font-size: 20px;
+}
+
+/* Subsecciones de detalle*/
+
+#detailDestinationContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileDestinationSubtitles {
+    text-align: left;
+}
+
+#detailDestinationContainer h2 {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#detailDestinationContainer p {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+#detailImageContainer img {
+    padding: 20px;
+    width: 738px;
+    height: 486px;
+}
+
+#mobileDetailInformationContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#detailTextCol h2{
+    font-size: 30px;
+}
+
+#detailTextCol p{
+    font-size: 21px;
+}
+
+#detailButtonCol div {
+    width: 100%;
+}
+
+.writeUsButton {
+    width: 100%;
+    font-size: 21px;
+}
+
+.detailTabletContainer {
+    display: grid;
+    place-items: center;
+}
+
+.detailTabletContainer div h3 {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.detailTabletContainer div div {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.mobileDetailIconsContainer {
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.detailIconContainers {
+    margin: 0px 15px;
+}
+
+#detailTripServices {
+    margin: 40px 0px 40px 10px;
+}
+
+#detailTripServices h2 {
+    font-size: 30px;
+}
+
+#detailTripServices ul li {
+    font-size: 21px;
 }
 
 /*Contacto*/
@@ -1125,8 +1437,6 @@ h5 {
 .contactDirect {
     max-width: 930px;
 }
-
-
 
 .contactCard {
     background-color: #663399;
@@ -1166,7 +1476,7 @@ h5 {
 
 }
 
-@media (min-width: 768px) and (max-width:907px) {
+@media (min-width: 769px) and (max-width:907px) {
 
 /*Nosotras*/
         
@@ -1178,13 +1488,13 @@ h5 {
     padding-bottom: 50px;
     padding-left: 20px;
     padding-right: 0px;
-  }
-  
+}
+
 .usDescription > div {
     width: 45%;
     margin-left: 10px;
     margin-right: 0px;
-  }
+}
 
 .columnTwo{
     margin-left: 0px;
@@ -1192,7 +1502,7 @@ h5 {
         
 }
 
-@media (min-width: 768px) and (max-width:931px) {
+@media (min-width: 769px) and (max-width:931px) {
 
 /*Nosotras*/
         
@@ -1216,7 +1526,7 @@ h5 {
 .usWhy > div {
     width: 45%;
     margin-right: 20px;
-  }   
+}   
         
 }
 
@@ -1232,13 +1542,13 @@ h5 {
     padding-bottom: 50px;
     padding-left: 30px;
     padding-right: 60px;
-  }
-  
+}
+
 .usDescription > div {
     width: 45%;
     margin-left: 20px;
     margin-right: 20px;
-  }
+}
 
 .columnTwo{
     margin-left: 0px;
@@ -1246,7 +1556,7 @@ h5 {
     
 }
 
-@media (min-width: 992px) and (max-width:1200px) {
+@media (min-width: 992px) and (max-width:1199px) {
 
 /*Estilos generales*/
 
@@ -1270,7 +1580,6 @@ h5 {
 #offcanvasBody {
     display: none;
 }
-
 
 /*Footer*/
 
@@ -1344,7 +1653,6 @@ h5 {
 #offcanvasBody {
     display: none;
 }
-
 
 /*Footer*/
 
